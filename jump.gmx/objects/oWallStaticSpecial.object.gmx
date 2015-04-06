@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>if (image_angle != 0) {sprite_index = sWallPrecise;}
+a=0
 </string>
           </argument>
         </arguments>
@@ -49,9 +50,10 @@
           <argument>
             <kind>1</kind>
             <string>/// geniální!
-
+draw_self() // debug
+if (abs(a) &lt; 40) {a -= 0.2;}
 draw_set_colour(c_dkgray)
-d3d_transform_set_rotation_z(image_angle)
+d3d_transform_set_rotation_z(image_angle+a)
 d3d_transform_add_translation(x,y,0)
 draw_rectangle(0,0,80+((80*image_xscale)-80),48+((48*image_yscale)-48),1) //+(80*image_xscale) 
 
@@ -82,9 +84,8 @@ draw_set_colour(c_white)
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>0,0</point>
-    <point>80,0</point>
-    <point>80,48</point>
-    <point>0,48</point>
+    <point>-40,-24</point>
+    <point>40,-24</point>
+    <point>40,24</point>
   </PhysicsShapePoints>
 </object>
