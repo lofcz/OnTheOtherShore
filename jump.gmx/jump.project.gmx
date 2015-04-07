@@ -88,8 +88,6 @@
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shdColor.shader</shader>
-    <shader type="GLSLES">shaders\shd_lerp.shader</shader>
-    <shader type="GLSLES">shaders\shd_radial_blur.shader</shader>
   </shaders>
   <fonts name="fonts">
     <font>fonts\fntText</font>
@@ -152,15 +150,11 @@
   </timelines>
   <rooms name="rooms">
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    <room>rooms\mapMainMenu</room>
->>>>>>> parent of 2677b62... branch
     <room>rooms\mapLevel1</room>
-    <room>rooms\mapLevel5</room>
-    <room>rooms\mapLevel4</room>
-    <room>rooms\mapLevel3</room>
     <room>rooms\mapLevel2</room>
+    <room>rooms\mapLevel3</room>
+    <room>rooms\mapLevel4</room>
+    <room>rooms\mapLevel5</room>
     <room>rooms\mapLevel6</room>
 =======
     <room>rooms\mapLevel6</room>
@@ -172,6 +166,7 @@
     <room>rooms\mapLevel2</room>
 >>>>>>> origin/master
     <room>rooms\mapLevelBasic</room>
+    <room>rooms\mapMainMenu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
