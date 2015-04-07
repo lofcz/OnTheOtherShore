@@ -101,7 +101,7 @@ mode = 1;
             <string>if (instance_number(oPlayer) &gt; 0)
 {
 
-if (mode = 2) {if (image_xscale &gt; 0) {image_xscale -= 0.02; image_yscale = image_xscale } else {instance_destroy() oPlayer.coins++}}
+if (mode = 2) {if (speed &gt; 0) {speed -= 0.1}if (image_xscale &gt; 0) {image_xscale -= 0.02; image_yscale = image_xscale } else {instance_destroy() oPlayer.coins++}}
 }
 </string>
           </argument>
