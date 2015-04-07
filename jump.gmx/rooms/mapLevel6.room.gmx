@@ -93,6 +93,8 @@
     <instance objName="oWallStaticGravity" x="1336" y="760" name="inst_8E1C20A4" locked="0" code="" scaleX="0.200000002980232" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
     <instance objName="oWallStaticGravity" x="1024" y="904" name="inst_EB2AC85E" locked="0" code="" scaleX="0.400000005960464" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
     <instance objName="oWallStaticGravity" x="1096" y="752" name="inst_498C5436" locked="0" code="" scaleX="0.600000023841858" scaleY="0.670000016689301" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1520" y="1264" name="inst_5C72BE41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1496" y="1264" name="inst_D7D81083" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
