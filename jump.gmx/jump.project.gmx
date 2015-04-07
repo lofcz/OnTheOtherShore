@@ -16,6 +16,8 @@
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\wall_small</sprite>
     <sprite>sprites\sWallTiny</sprite>
+    <sprite>sprites\oWallTinyColored</sprite>
+    <sprite>sprites\sWallPrecise</sprite>
     <sprite>sprites\sprite30</sprite>
     <sprite>sprites\sWallBigJump</sprite>
     <sprite>sprites\sWallTinyDown</sprite>
@@ -82,6 +84,7 @@
     <script>scripts\scrMulticoloredText.gml</script>
     <script>scripts\scrRealAxis.gml</script>
     <script>scripts\scrEffectRotate.gml</script>
+    <script>scripts\scrRotate.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shdColor.shader</shader>
@@ -94,7 +97,9 @@
     <object>objects\oPlayer</object>
     <object>objects\oWallDown</object>
     <object>objects\oWallStatic</object>
+    <object>objects\oWallStaticSpecial</object>
     <object>objects\oWallStaticGravity</object>
+    <object>objects\oWallStaticGravityBouncy</object>
     <object>objects\oWallSpike</object>
     <object>objects\oWallBarricade</object>
     <object>objects\oWallBigJump</object>
@@ -144,12 +149,22 @@
     <timeline>timelines\timeline1</timeline>
   </timelines>
   <rooms name="rooms">
+<<<<<<< HEAD
     <room>rooms\mapLevel1</room>
     <room>rooms\mapLevel2</room>
     <room>rooms\mapLevel3</room>
     <room>rooms\mapLevel4</room>
     <room>rooms\mapLevel5</room>
     <room>rooms\mapLevel6</room>
+=======
+    <room>rooms\mapLevel6</room>
+    <room>rooms\mapLevel1</room>
+    <room>rooms\mapMainMenu</room>
+    <room>rooms\mapLevel5</room>
+    <room>rooms\mapLevel4</room>
+    <room>rooms\mapLevel3</room>
+    <room>rooms\mapLevel2</room>
+>>>>>>> origin/master
     <room>rooms\mapLevelBasic</room>
     <room>rooms\mapMainMenu</room>
   </rooms>

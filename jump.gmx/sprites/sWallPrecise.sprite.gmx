@@ -3,9 +3,9 @@
   <type>0</type>
   <xorig>0</xorig>
   <yorigin>0</yorigin>
-  <colkind>1</colkind>
-  <coltolerance>71</coltolerance>
-  <sepmasks>0</sepmasks>
+  <colkind>0</colkind>
+  <coltolerance>61</coltolerance>
+  <sepmasks>-1</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
   <bbox_right>79</bbox_right>
@@ -20,6 +20,6 @@
   <width>80</width>
   <height>48</height>
   <frames>
-    <frame index="0">images\sWallTiny_0.png</frame>
+    <frame index="0">images\sWallPrecise_0.png</frame>
   </frames>
 </sprite>
