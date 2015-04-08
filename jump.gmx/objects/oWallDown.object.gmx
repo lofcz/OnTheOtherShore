@@ -3,7 +3,7 @@
   <spriteName>sWall</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1</depth>
   <persistent>0</persistent>
   <parentName>wall</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -242,5 +242,10 @@ if (distance_to_object(oPlayer) &lt;= 2 &amp;&amp; move = "down")
   <PhysicsObjectFriction>0</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints/>
+  <PhysicsShapePoints>
+    <point>-144,-24</point>
+    <point>144,-24</point>
+    <point>144,24</point>
+    <point>-144,24</point>
+  </PhysicsShapePoints>
 </object>

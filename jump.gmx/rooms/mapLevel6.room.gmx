@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>428</xoffset>
-    <yoffset>477</yoffset>
+    <xoffset>590</xoffset>
+    <yoffset>808</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -92,7 +92,7 @@
     <instance objName="oWallStaticGravity" x="984" y="856" name="inst_3E592B7F" locked="0" code="" scaleX="0.300000011920929" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
     <instance objName="oWallStaticGravityBouncy" x="1320" y="1048" name="inst_3CED7515" locked="0" code="" scaleX="0.400000005960464" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="oWallStaticGravity" x="1024" y="904" name="inst_EB2AC85E" locked="0" code="" scaleX="0.400000005960464" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
-    <instance objName="oWallStaticSpecial" x="912" y="1040" name="inst_AE8DE188" locked="0" code="script = scrRotate;&#xA;arg0 = 320;&#xA;" scaleX="6.80000019073486" scaleY="0.600000023841858" colour="4294967295" rotation="350"/>
+    <instance objName="oWallStaticSpecial" x="816" y="1016" name="inst_74CAC19F" locked="0" code="angle = 338;&#xA;event = &quot;create&quot;;&#xA;r_speed = 0.05;&#xA;" scaleX="9.10000038146973" scaleY="0.5" colour="4294967295" rotation="350"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

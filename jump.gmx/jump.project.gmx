@@ -16,6 +16,7 @@
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\wall_small</sprite>
     <sprite>sprites\sWallTiny</sprite>
+    <sprite>sprites\sWallTinySpecial</sprite>
     <sprite>sprites\oWallTinyColored</sprite>
     <sprite>sprites\sWallPrecise</sprite>
     <sprite>sprites\sprite30</sprite>
@@ -152,8 +153,8 @@
   </timelines>
   <rooms name="rooms">
     <room>rooms\mapLevel6</room>
-    <room>rooms\mapLevel1</room>
     <room>rooms\mapMainMenu</room>
+    <room>rooms\mapLevel1</room>
     <room>rooms\mapLevel5</room>
     <room>rooms\mapLevel4</room>
     <room>rooms\mapLevel3</room>
