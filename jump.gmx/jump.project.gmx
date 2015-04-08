@@ -152,9 +152,9 @@
     <timeline>timelines\timeline1</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\mapLevel1</room>
     <room>rooms\mapLevel6</room>
     <room>rooms\mapMainMenu</room>
-    <room>rooms\mapLevel1</room>
     <room>rooms\mapLevel5</room>
     <room>rooms\mapLevel4</room>
     <room>rooms\mapLevel3</room>
