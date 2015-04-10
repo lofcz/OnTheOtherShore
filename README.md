@@ -1,3 +1,0 @@
-# OnTheOtherShore
-
-Amateur Czech game

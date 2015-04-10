@@ -10,3 +10,4 @@ if( shader_is_compiled(shdColor))
         
     }
     else {show_message("Sorry, your GPU does not support shaders, time for upgrade man."); game_end();}
+
