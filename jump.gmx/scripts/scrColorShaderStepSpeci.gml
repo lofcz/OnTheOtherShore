@@ -1,7 +1,7 @@
 /// scrColorShaderStep()
 if (instance_number(oPlayer) > 0)
 {
-if (distance_to_object(oPlayer) <= 2)
+if (k_p = 1)
    {
     // Rozdíl shaderu a originálu (orig. větší cuz bílá)
     dif_r = abs(r_s - r);
@@ -38,7 +38,7 @@ if (distance_to_object(oPlayer) <= 2)
        else {alpha += spd}
 
    }
-   else
+else
        {
        
    if (r>r_o)
