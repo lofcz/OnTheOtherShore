@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>695</xoffset>
-    <yoffset>969</yoffset>
+    <xoffset>882</xoffset>
+    <yoffset>1053</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -92,10 +92,10 @@
     <instance objName="oWallStaticGravity" x="984" y="856" name="inst_3E592B7F" locked="0" code="" scaleX="0.300000011920929" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
     <instance objName="oWallStaticGravityBouncy" x="1320" y="1048" name="inst_3CED7515" locked="0" code="//physics_apply_local_impulse(x, y + 8, 0, -10);&#xA;" scaleX="0.400000005960464" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="oWallStaticGravity" x="1024" y="904" name="inst_EB2AC85E" locked="0" code="" scaleX="0.400000005960464" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
-    <instance objName="oCoin" x="1176" y="1264" name="inst_F93E74A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCoin" x="1200" y="1264" name="inst_13261035" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCoin" x="1184" y="1248" name="inst_9A49A01F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCoin" x="1184" y="1280" name="inst_B65520BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoinEffect" x="1208" y="1256" name="inst_2C69FDCB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoinEffect" x="1224" y="1232" name="inst_8A6D099B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoinEffect" x="1240" y="1256" name="inst_D179EAAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoinEffect" x="1224" y="1280" name="inst_86F6A219" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

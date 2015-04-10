@@ -28,8 +28,9 @@
             <string>direction = random(359)
 spd = random_range(1,2)
 image_angle = random(359)
-alarm[0] = random_range(20,40);
+//alarm[0] = random_range(20,40);
 mode = 1;
+
 
 </string>
           </argument>
@@ -99,10 +100,13 @@ mode = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>speed = spd;
+            <string>//speed = spd;
 spd -= 0.01;
 
-
+if (keyboard_check(ord("W"))){
+physics_apply_local_force(0, 0, 350, 0)
+show_message("");
+}
 
 
 if (instance_number(oPlayer) &gt; 0)
@@ -142,14 +146,14 @@ if (mode = 2) {if (image_xscale &gt; 0) {image_xscale -= 0.02; image_yscale = im
       </action>
     </event>
   </events>
-  <PhysicsObject>0</PhysicsObject>
-  <PhysicsObjectSensor>0</PhysicsObjectSensor>
+  <PhysicsObject>-1</PhysicsObject>
+  <PhysicsObjectSensor>-1</PhysicsObjectSensor>
   <PhysicsObjectShape>0</PhysicsObjectShape>
-  <PhysicsObjectDensity>0.200000002980232</PhysicsObjectDensity>
-  <PhysicsObjectRestitution>0.5</PhysicsObjectRestitution>
-  <PhysicsObjectGroup>0</PhysicsObjectGroup>
-  <PhysicsObjectLinearDamping>0.100000001490116</PhysicsObjectLinearDamping>
-  <PhysicsObjectAngularDamping>0.100000001490116</PhysicsObjectAngularDamping>
+  <PhysicsObjectDensity>0</PhysicsObjectDensity>
+  <PhysicsObjectRestitution>1</PhysicsObjectRestitution>
+  <PhysicsObjectGroup>-1</PhysicsObjectGroup>
+  <PhysicsObjectLinearDamping>0.200000002980232</PhysicsObjectLinearDamping>
+  <PhysicsObjectAngularDamping>0.200000002980232</PhysicsObjectAngularDamping>
   <PhysicsObjectFriction>0</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>-1</PhysicsObjectKinematic>

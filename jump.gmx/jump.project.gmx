@@ -16,6 +16,7 @@
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\wall_small</sprite>
     <sprite>sprites\sWallTiny</sprite>
+    <sprite>sprites\sWallPort</sprite>
     <sprite>sprites\sWallTinySpecial</sprite>
     <sprite>sprites\oWallTinyColored</sprite>
     <sprite>sprites\sWallPrecise</sprite>
@@ -54,6 +55,7 @@
     <sprite>sprites\sRotate</sprite>
     <sprite>sprites\sprite34</sprite>
     <sprite>sprites\sprite35</sprite>
+    <sprite>sprites\sprite43</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -77,7 +79,9 @@
     <script>scripts\global_to_local_y.gml</script>
     <script>scripts\scrColorShaderCreate.gml</script>
     <script>scripts\scrColorShaderStep.gml</script>
+    <script>scripts\scrColorShaderStepSpeci.gml</script>
     <script>scripts\scrColorShaderDraw.gml</script>
+    <script>scripts\scrColorShaderDrawSpeci.gml</script>
     <script>scripts\scrEffectCoin.gml</script>
     <script>scripts\screffectRestart.gml</script>
     <script>scripts\scrEffectRing.gml</script>
@@ -86,6 +90,7 @@
     <script>scripts\scrRealAxis.gml</script>
     <script>scripts\scrEffectRotate.gml</script>
     <script>scripts\scrRotate.gml</script>
+    <script>scripts\scrEffectTeleport.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shdColor.shader</shader>
@@ -107,6 +112,7 @@
     <object>objects\oWallSpike</object>
     <object>objects\oWallBarricade</object>
     <object>objects\oWallBigJump</object>
+    <object>objects\oWallPort</object>
     <object>objects\oWallFade</object>
     <object>objects\oWallBounce</object>
     <object>objects\wall</object>
@@ -148,13 +154,14 @@
     <object>objects\oTextSpeci5</object>
     <object>objects\oTextSpeci6</object>
     <object>objects\oTextSpeci7</object>
+    <object>objects\oPortHelper</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline1</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\mapLevel7</room>
     <room>rooms\mapLevel1</room>
+    <room>rooms\mapLevel7</room>
     <room>rooms\mapLevel6</room>
     <room>rooms\mapMainMenu</room>
     <room>rooms\mapLevel5</room>

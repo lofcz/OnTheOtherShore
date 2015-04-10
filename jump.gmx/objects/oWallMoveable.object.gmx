@@ -36,7 +36,7 @@ g = 255;
 b = 0;
 
 
-space = 2;
+space = 5;
 //**************
 
 
@@ -135,6 +135,7 @@ if (draw = 1)
 // alpha
 trail = distance_to_point(xs,ys);
 alpha = abs((trail/trail_total)-1);
+
 
 
 // you gonna go far kid ;)
