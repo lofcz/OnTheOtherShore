@@ -170,7 +170,7 @@
     <instance objName="oWallStatic" x="944" y="2032" name="inst_C1F504A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="944" y="2080" name="inst_69D2DCDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="944" y="2128" name="inst_7E62DBF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWallBigJump" x="704" y="2080" name="inst_E90DD24F" locked="0" code="skok = 30;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallBigJump" x="704" y="2080" name="inst_E90DD24F" locked="0" code="skok = 30;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="896" y="2064" name="inst_F2916E1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="832" y="2112" name="inst_3B78DC73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="736" y="1744" name="inst_5D1BCCD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

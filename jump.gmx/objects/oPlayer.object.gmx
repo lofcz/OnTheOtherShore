@@ -819,5 +819,9 @@ if (view_angle = -360)
   <PhysicsObjectFriction>0</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints/>
+  <PhysicsShapePoints>
+    <point>0,0</point>
+    <point>6,0</point>
+    <point>6,6</point>
+  </PhysicsShapePoints>
 </object>
