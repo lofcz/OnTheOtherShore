@@ -9,4 +9,3 @@ for(i=0; i<traillength; i+=1)
         ds_grid_set(argument0,i,1,ds_grid_get(argument0,i,1)+argument2);
     }
 }
-

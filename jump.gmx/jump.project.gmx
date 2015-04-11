@@ -16,6 +16,7 @@
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\wall_small</sprite>
     <sprite>sprites\sWallTiny</sprite>
+    <sprite>sprites\sWallTinyHazard</sprite>
     <sprite>sprites\sWallPort</sprite>
     <sprite>sprites\sWallTinySpecial</sprite>
     <sprite>sprites\oWallTinyColored</sprite>
@@ -50,7 +51,6 @@
     <sprite>sprites\sCredits</sprite>
     <sprite>sprites\sEndGame</sprite>
     <sprite>sprites\sOnAnotherShore</sprite>
-    <sprite>sprites\sprite31</sprite>
     <sprite>sprites\sHealthBar</sprite>
     <sprite>sprites\sRotate</sprite>
     <sprite>sprites\sprite34</sprite>
@@ -91,9 +91,14 @@
     <script>scripts\scrEffectRotate.gml</script>
     <script>scripts\scrRotate.gml</script>
     <script>scripts\scrEffectTeleport.gml</script>
+    <script>scripts\scrEffectSpark.gml</script>
+    <script>scripts\scrEnergybreather.gml</script>
+    <script>scripts\DecToHex.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shdColor.shader</shader>
+    <shader type="GLSLES">shaders\shd_lerp.shader</shader>
+    <shader type="GLSLES">shaders\shd_radial_blur.shader</shader>
   </shaders>
   <fonts name="fonts">
     <font>fonts\fntText</font>
@@ -103,6 +108,8 @@
     <object>objects\oPlayer</object>
     <object>objects\oWallDown</object>
     <object>objects\oWallStatic</object>
+    <object>objects\oWallGlass</object>
+    <object>objects\oWallEnergyBreather</object>
     <object>objects\oWallMoveable</object>
     <object>objects\oWallStaticSpecial</object>
     <object>objects\oWallStaticGravity</object>
@@ -135,6 +142,7 @@
     <object>objects\oCoinBig</object>
     <object>objects\oWeightp</object>
     <object>objects\oTurn90p</object>
+    <object>objects\oTurn90pM</object>
     <object>objects\oTurn180p</object>
     <object>objects\oTurn270p</object>
     <object>objects\oLight</object>
@@ -152,31 +160,32 @@
     <object>objects\oTextSpeci5</object>
     <object>objects\oTextSpeci6</object>
     <object>objects\oTextSpeci7</object>
-<<<<<<< HEAD
-    <object>objects\oTextSpeci8</object>
-    <object>objects\oTextSpeci9</object>
-=======
     <object>objects\oPortHelper</object>
->>>>>>> origin/master
+    <object>objects\oEnergyball</object>
+    <object>objects\oFreezeScreen</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline1</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\mapLevel3_real</room>
+    <room>rooms\mapLevel2_real</room>
     <room>rooms\mapLevel1</room>
     <room>rooms\mapLevel7</room>
     <room>rooms\mapLevel6</room>
     <room>rooms\mapMainMenu</room>
-<<<<<<< HEAD
-    <room>rooms\mapLevel3</room>
-    <room>rooms\mapLevel1</room>
-=======
->>>>>>> origin/master
-    <room>rooms\mapLevel5</room>
     <room>rooms\mapLevel4</room>
+    <room>rooms\mapLevel3</room>
     <room>rooms\mapLevel2</room>
     <room>rooms\mapLevelBasic</room>
   </rooms>
+  <constants number="5">
+    <constant name="e_alpha">4</constant>
+    <constant name="e_end_y">3</constant>
+    <constant name="e_end_x">2</constant>
+    <constant name="e_start_y">1</constant>
+    <constant name="e_start_x">0</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
