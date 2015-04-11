@@ -125,7 +125,7 @@
     <object>objects\oStart</object>
     <object>objects\oFinish</object>
     <object>objects\checkpoint</object>
-    <object>objects\checkpoint_full</object>
+    <object>objects\oCheckpointFull</object>
     <object>objects\finish_firework</object>
     <object>objects\oExplosion</object>
     <object>objects\laser_horizontal</object>
@@ -163,12 +163,13 @@
     <object>objects\oPortHelper</object>
     <object>objects\oEnergyball</object>
     <object>objects\oFreezeScreen</object>
-    <object>objects\object58</object>
+    <object>objects\oCheckpointSystem</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline1</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\mapLevel3</room>
     <room>rooms\mapLevel3_real</room>
     <room>rooms\mapLevel2_real</room>
     <room>rooms\mapLevel1</room>
@@ -176,7 +177,6 @@
     <room>rooms\mapLevel6</room>
     <room>rooms\mapMainMenu</room>
     <room>rooms\mapLevel4</room>
-    <room>rooms\mapLevel3</room>
     <room>rooms\mapLevel2</room>
     <room>rooms\mapLevelBasic</room>
   </rooms>

@@ -53,25 +53,29 @@
     <event eventtype="4" ename="oPlayer">
       <action>
         <libid>1</libid>
-        <id>202</id>
-        <kind>0</kind>
+        <id>603</id>
+        <kind>7</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_change_object</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>10</kind>
-            <object>checkpoint_full</object>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
+            <kind>1</kind>
+            <string>with(oCheckpointSystem)
+{
+StateSaved = true;
+ buffer_seek(SaveBuffer, buffer_seek_start, 0);
+ game_save_buffer(SaveBuffer);
+ }
+  instance_change(oCheckpointFull,1);
+
+</string>
           </argument>
         </arguments>
       </action>

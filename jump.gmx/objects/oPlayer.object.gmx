@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>event_inherited()
 //instance_create(x,y,oLight)
+instance_create(x,y,oCheckpointSystem);
 coins = 0;
 can_move = 1;
 weight = 1;
@@ -738,10 +739,23 @@ if (keyboard_check_pressed(ord("R")))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string> can_move = 0;
+            <string>if oCheckpointSystem.StateSaved = 1
+    {
+    with(oCheckpointSystem)
+    {
+    buffer_seek(SaveBuffer, buffer_seek_start, 0);
+    game_load_buffer(SaveBuffer);
+    }
+    
+    }
+    else 
+    {
+      show_message("");
+   can_move = 0;
     screffectRestart()
     alarm[11] = 20;
-
+    }
+    
 </string>
           </argument>
         </arguments>
@@ -790,8 +804,7 @@ if (keyboard_check_pressed(ord("R")))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_restart()
-
+            <string>event_user(0)
 </string>
           </argument>
         </arguments>
