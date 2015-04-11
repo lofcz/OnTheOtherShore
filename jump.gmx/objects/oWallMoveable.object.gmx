@@ -157,7 +157,7 @@ if (ride = 1)
    
     if (instance_number(oPlayer) &gt; 0)
        {
-        if (distance_to_object(oPlayer) &gt; 5 )
+        if (distance_to_object(oPlayer) &gt; 5 ) 
            {
             ride = 0;
            }
@@ -223,7 +223,7 @@ if (ride = 1)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// geniální!
+            <string>/// geniální! 
 
       
 
@@ -291,7 +291,7 @@ for (i = 0; i&lt;= (width_y)-1; i+=2)
     }
 
 
-draw_primitive_end();
+draw_primitive_end(); 
 draw_set_alpha(1)
 }
 </string>

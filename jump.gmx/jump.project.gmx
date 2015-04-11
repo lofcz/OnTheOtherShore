@@ -98,7 +98,6 @@
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shdColor.shader</shader>
     <shader type="GLSLES">shaders\shd_lerp.shader</shader>
-    <shader type="GLSLES">shaders\shd_radial_blur.shader</shader>
   </shaders>
   <fonts name="fonts">
     <font>fonts\fntText</font>
@@ -169,12 +168,13 @@
     <timeline>timelines\timeline1</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\mapLevel3</room>
+    <room>rooms\mapLevel8</room>
+    <room>rooms\mapLevel6</room>
     <room>rooms\mapLevel3_real</room>
+    <room>rooms\mapLevel3</room>
     <room>rooms\mapLevel2_real</room>
     <room>rooms\mapLevel1</room>
     <room>rooms\mapLevel7</room>
-    <room>rooms\mapLevel6</room>
     <room>rooms\mapMainMenu</room>
     <room>rooms\mapLevel4</room>
     <room>rooms\mapLevel2</room>

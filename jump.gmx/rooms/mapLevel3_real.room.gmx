@@ -81,8 +81,8 @@
     <instance objName="oWallStatic" x="1424" y="2304" name="inst_BD69B431" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="2032" y="2448" name="inst_1BBDC73C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oTurn90p" x="1296" y="2416" name="inst_DDF39CD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWallMoveable" x="1504" y="2448" name="inst_82395B73" locked="0" code="xs = 2032-4;&#xA;ys = y;&#xA;spd = 2;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWallEnergyBreather" x="2080" y="2144" name="inst_D8CF0B95" locked="0" code="scrEnergybreather(15,4,270,4,20,1,50,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallMoveable" x="1504" y="2448" name="inst_82395B73" locked="0" code="xs = x+300;&#xA;ys = y;&#xA;spd = 2;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallEnergyBreather" x="2080" y="2144" name="inst_D8CF0B95" locked="0" code="/*scrEnergybreather(15,4,270,4,20,1,50,1);*/&#xA;scrEnergybreather(30,1,270,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallGlass" x="2112" y="2448" name="inst_A8358C87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
