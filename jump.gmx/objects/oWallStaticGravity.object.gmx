@@ -199,7 +199,6 @@ if (d&lt;2) {if (speed &gt; 0) {speed -= 0.01}}
           <argument>
             <kind>1</kind>
             <string>with(other) {move_bounce_all(1)}
-physics_apply_impulse(0,0,other.direction,other.direction);
 </string>
           </argument>
         </arguments>

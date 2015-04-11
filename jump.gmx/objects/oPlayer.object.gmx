@@ -37,7 +37,6 @@ max_hp = hp;
 view_view = 270;
 aa = 1
 hp_curr = hp;
-dis_port =  0;
 v_rychlost = 12;
 max_trail_parts = 15; //number of trail sections
 trail_count = -1; //used for first few steps
