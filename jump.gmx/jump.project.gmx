@@ -163,6 +163,7 @@
     <object>objects\oPortHelper</object>
     <object>objects\oEnergyball</object>
     <object>objects\oFreezeScreen</object>
+    <object>objects\object58</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline1</timeline>
