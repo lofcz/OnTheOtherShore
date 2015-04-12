@@ -687,6 +687,7 @@ if (keyboard_check_pressed(ord("R")))
           <argument>
             <kind>1</kind>
             <string>with(oEnergyball) {instance_destroy()}
+
 if oCheckpointSystem.StateSaved = 1
     {
 
@@ -698,9 +699,12 @@ if oCheckpointSystem.StateSaved = 1
     }
     else 
     {
-   can_move = 0;
+    if (can_move = 1)
+    {
+    can_move = 0;
     screffectRestart()
     alarm[11] = 20;
+    }
     }
     
 </string>
