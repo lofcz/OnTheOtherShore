@@ -20,6 +20,7 @@
     <sprite>sprites\sWallPort</sprite>
     <sprite>sprites\sWallTinySpecial</sprite>
     <sprite>sprites\oWallTinyColored</sprite>
+    <sprite>sprites\sWallTinyMoved</sprite>
     <sprite>sprites\sWallPrecise</sprite>
     <sprite>sprites\sprite30</sprite>
     <sprite>sprites\sWallBigJump</sprite>
@@ -110,6 +111,7 @@
     <object>objects\oWallGlass</object>
     <object>objects\oWallEnergyBreather</object>
     <object>objects\oWallMoveable</object>
+    <object>objects\oWallMoved</object>
     <object>objects\oWallStaticSpecial</object>
     <object>objects\oWallStaticGravity</object>
     <object>objects\oWallStaticGravityBouncy</object>
@@ -143,6 +145,7 @@
     <object>objects\oTurn90p</object>
     <object>objects\oTurn90pM</object>
     <object>objects\oTurn180p</object>
+    <object>objects\oTurn180pSpeedy</object>
     <object>objects\oTurn270p</object>
     <object>objects\oLight</object>
     <object>objects\oNewGame</object>
@@ -168,6 +171,7 @@
     <timeline>timelines\timeline1</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\mapLevel9</room>
     <room>rooms\mapLevel8</room>
     <room>rooms\mapLevel6</room>
     <room>rooms\mapLevel3_real</room>
