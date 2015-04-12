@@ -67,11 +67,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with(oCheckpointSystem)
+            <string>with(oEnergyball) {instance_destroy()}
+with(oCheckpointSystem)
 {
-StateSaved = true;
- buffer_seek(SaveBuffer, buffer_seek_start, 0);
- game_save_buffer(SaveBuffer);
+game_save("save.otos");
+StateSaved = 1;
  }
   instance_change(oCheckpointFull,1);
 
