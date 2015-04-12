@@ -171,8 +171,8 @@
     <timeline>timelines\timeline1</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\mapLevel9</room>
     <room>rooms\mapLevel8</room>
+    <room>rooms\mapLevel9</room>
     <room>rooms\mapLevel6</room>
     <room>rooms\mapLevel3_real</room>
     <room>rooms\mapLevel3</room>

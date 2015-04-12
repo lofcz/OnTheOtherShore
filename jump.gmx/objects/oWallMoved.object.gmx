@@ -115,7 +115,7 @@ else if move = 0
 //cesta = délka dráhy
 if move = 1
 { 
-al = 12
+al = 10
 }
 else if move = 0
 {

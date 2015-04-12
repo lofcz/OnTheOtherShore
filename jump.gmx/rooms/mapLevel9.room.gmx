@@ -3,8 +3,8 @@
   <caption></caption>
   <width>3000</width>
   <height>3000</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>48</vsnap>
+  <hsnap>20</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="oPlayer" x="752" y="624" name="inst_F93A13DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallMoveable" x="1952" y="1536" name="inst_54151BBC" locked="0" code="xs = x-700;&#xA;ys = y;&#xA;spd = 4;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallBarricade" x="576" y="656" name="inst_15923AF9" locked="0" code="" scaleX="8.92000007629395" scaleY="6.8600001335144" colour="4294967295" rotation="0"/>
     <instance objName="oWallBarricade" x="352" y="1312" name="inst_070D6E2B" locked="0" code="" scaleX="9.61999988555908" scaleY="16.3600006103516" colour="4294967295" rotation="0"/>
     <instance objName="oWallBarricade" x="464" y="944" name="inst_9572019A" locked="0" code="" scaleX="8.53846168518066" scaleY="10.8987340927124" colour="4294967295" rotation="0"/>
@@ -89,7 +89,7 @@
     <instance objName="oWallEnergyBreather" x="16" y="64" name="inst_C0447EC7" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="tlacitko" x="2816" y="304" name="inst_C26AF62B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="2672" y="304" name="inst_783C6895" locked="0" code="" scaleX="5.19999980926514" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
-    <instance objName="oWallStatic" x="1984" y="1056" name="inst_EF4801DE" locked="0" code="" scaleX="3.59999990463257" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="1968" y="1056" name="inst_EF4801DE" locked="0" code="" scaleX="3.59999990463257" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tlacitko" x="2112" y="1056" name="inst_790D9A4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tlacitko" x="720" y="704" name="inst_30F17C39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="oTurn270p" x="1904" y="992" name="inst_2FD7DEC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -116,71 +116,71 @@
     <instance objName="oWallEnergyBreather" x="16" y="640" name="inst_54F68126" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="oWallEnergyBreather" x="16" y="704" name="inst_DCC5BDBB" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="oWallEnergyBreather" x="16" y="720" name="inst_8C9575DD" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="oWallEnergyBreather" x="16" y="784" name="inst_1DE1DC78" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="oWallEnergyBreather" x="16" y="784" name="inst_46F2E455" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="oWallEnergyBreather" x="16" y="864" name="inst_58E1FFD9" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="oWallEnergyBreather" x="16" y="864" name="inst_A0774998" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="oWallEnergyBreather" x="16" y="944" name="inst_F5C4D96A" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="oWallEnergyBreather" x="16" y="944" name="inst_B8012CF5" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="oWallDown" x="0" y="1008" name="inst_7C30958F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWallStatic" x="288" y="944" name="inst_10AE411A" locked="0" code="" scaleX="2.40000009536743" scaleY="1.33333337306976" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_3BCE7DB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_6C6E573E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_F0859F78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_952ECC02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_8A60E2B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_9F2193BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_18C3D461" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_F06A5A40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_9856FAFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_4CC841AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_53B4A98A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_BD4A8B06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_A1A6EC4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_51B6F345" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_4F0A848E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_A49B6C05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_0E9F9873" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_13AAE32B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_D7BF6881" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_5B086252" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_8EE478B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_DF249B82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_5828A276" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_E2C58E60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_C3B7061C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_27F2FBEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_04E86BAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_5F057CB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_6BFDAE5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_825D23D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_26012E94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_8C4377E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_5BC72944" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_40E723F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_7BD20699" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_6049748C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_347878FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_372A92D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_17188BEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_4C1FE539" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_5B234FB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_1720AB77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_E51255EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_6BF85BBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_2106D7AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_6D19BF0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_35922A64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_A84AB734" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_40606D90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_103E704B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_C92A47DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_44E4D60A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_8070E2A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_EF9E6CD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_94CFD26E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_B0FD7444" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWeightp" x="144" y="992" name="inst_601CE1D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWeightp" x="176" y="688" name="inst_AFB3635A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1541" y="1344" name="inst_054CDDCC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1080" y="1056" name="inst_686695C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1040" y="1056" name="inst_7AA1138C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1060" y="1056" name="inst_C8238A3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWeightp" x="176" y="720" name="inst_BA760724" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallDown" x="0" y="1008" name="inst_7C30958F" locked="0" code="" scaleX="0.944444417953491" scaleY="1.08333337306976" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="288" y="944" name="inst_10AE411A" locked="0" code="" scaleX="4.19999980926514" scaleY="1.36170208454132" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1100" y="1056" name="inst_D76B0E31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1120" y="1056" name="inst_0CCECA14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1140" y="1056" name="inst_56BCC305" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1160" y="1056" name="inst_840F657A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1180" y="1056" name="inst_A38B2632" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1160" y="1056" name="inst_88423828" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1140" y="1056" name="inst_BE4DEA6E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1120" y="1056" name="inst_E4715956" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1100" y="1056" name="inst_8EA32BA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1080" y="1056" name="inst_E7400059" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1060" y="1056" name="inst_E75367AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1040" y="1056" name="inst_11317FE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1020" y="1056" name="inst_4D20F9BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1000" y="1056" name="inst_E429F238" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="980" y="1056" name="inst_05DEB23E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="960" y="1056" name="inst_104139A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="940" y="1056" name="inst_E88CD4E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="920" y="1056" name="inst_6CC7BD79" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="900" y="1056" name="inst_2A1CE324" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="880" y="1056" name="inst_F3AC1132" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="860" y="1056" name="inst_08EF1CA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="840" y="1056" name="inst_E29FEEBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="820" y="1056" name="inst_834B45A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="800" y="1056" name="inst_EC9CC78A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="780" y="1056" name="inst_0AA537F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="760" y="1056" name="inst_A176479E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="740" y="1056" name="inst_ECD40AB9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="720" y="1056" name="inst_E6A35866" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="700" y="1056" name="inst_9D42583A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="680" y="1056" name="inst_08DAAF49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="660" y="1056" name="inst_48EED2AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="640" y="1056" name="inst_A5B0B852" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="620" y="1056" name="inst_EB07FA68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="600" y="1056" name="inst_2E293030" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="580" y="1056" name="inst_6A86C9A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="560" y="1056" name="inst_E159C1C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="540" y="1056" name="inst_E22FDA27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="520" y="1056" name="inst_1AD3C781" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="500" y="1056" name="inst_EF8C44B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="80" y="576" name="inst_B077D6E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="80" y="528" name="inst_C984EF4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="80" y="480" name="inst_2D5CEEB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="80" y="432" name="inst_FF73C867" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="80" y="384" name="inst_EA0E9E4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="80" y="336" name="inst_F659CDE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="80" y="288" name="inst_18B3099B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="80" y="240" name="inst_0CF4048B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="80" y="192" name="inst_645E10A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="80" y="144" name="inst_29E35D2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="80" y="96" name="inst_E14D9134" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="80" y="48" name="inst_9D890EDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="80" y="0" name="inst_F33156A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="80" y="624" name="inst_EB468EC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="80" y="672" name="inst_2C3033CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oPlayer" x="740" y="624" name="inst_29199A59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1080" y="1872" name="inst_C9D95E6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1080" y="1872" name="inst_4C0280DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallBigJump" x="2400" y="352" name="inst_1288A4C1" locked="0" code="skok = 10&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallBigJump" x="2224" y="368" name="inst_28AD4AC9" locked="0" code="skok = 10&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallBigJump" x="2064" y="416" name="inst_B09C1021" locked="0" code="skok = 10&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -214,6 +214,293 @@
     <instance objName="oWallFade" x="1296" y="1344" name="inst_4A2C39AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint" x="1392" y="1216" name="inst_9649D6AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="1376" y="1344" name="inst_7A5EC3D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="672" y="944" name="inst_38C6C19D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="oWallSpike" x="672" y="964" name="inst_0737D5AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="oWallSpike" x="672" y="984" name="inst_89835432" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="oWallMoved" x="2096" y="1288" name="inst_6ADCF18B" locked="0" code="cesta = 80&#xA;move = 1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallMoved" x="1462" y="1281" name="inst_723E0ED1" locked="0" code="cesta = 80&#xA;move = 0&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="2176" y="1344" name="inst_9B0B5E78" locked="0" code="" scaleX="6.48000001907349" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oTurn90p" x="2656" y="1328" name="inst_BB06751B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="2864" y="1664" name="inst_CB53D4F4" locked="0" code="" scaleX="6.48000001907349" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="checkpoint" x="2576" y="1216" name="inst_ECBAAA9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="2704" y="1360" name="inst_83B8F46A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="2832" y="1360" name="inst_B881A3F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="2800" y="1360" name="inst_43083C2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="2768" y="1360" name="inst_C51E2BBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="2736" y="1360" name="inst_D26E0567" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oTurn90p" x="2832" y="1168" name="inst_E43ABBB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oTurn180pSpeedy" x="2544" y="1168" name="inst_99B4F251" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="2032" y="1584" name="inst_9D0C6B09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1140" y="1056" name="inst_2153986B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1120" y="1056" name="inst_D1917D64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1100" y="1056" name="inst_59CAD5DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1080" y="1056" name="inst_1FCA18FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1060" y="1056" name="inst_7C731A6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="500" y="1104" name="inst_917A0DD2" locked="0" code="" scaleX="31.25" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1260" y="1056" name="inst_4B60E0E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1280" y="1056" name="inst_9931161A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1300" y="1056" name="inst_9BB83E81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1320" y="1056" name="inst_D2DF44E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1340" y="1056" name="inst_5832739E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1360" y="1056" name="inst_66436ACD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1380" y="1056" name="inst_42AA3882" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1400" y="1056" name="inst_FDEF1264" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1420" y="1056" name="inst_FC82BBB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1440" y="1056" name="inst_0ED0BC2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1460" y="1056" name="inst_2D5F5444" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1480" y="1056" name="inst_056C4A66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1500" y="1056" name="inst_E25F0DA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1520" y="1056" name="inst_45748238" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1540" y="1056" name="inst_A59930DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1560" y="1056" name="inst_8DD19EED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1580" y="1056" name="inst_B5A95C5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1600" y="1056" name="inst_B974B9D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1620" y="1056" name="inst_E1156E3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1640" y="1056" name="inst_92AB72FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1660" y="1056" name="inst_CE062391" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1680" y="1056" name="inst_E2E3D4CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1700" y="1056" name="inst_4FAE7AA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1720" y="1056" name="inst_E36857E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1740" y="1056" name="inst_E93798F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1760" y="1056" name="inst_CC6D6B91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1780" y="1056" name="inst_AFABD381" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1800" y="1056" name="inst_9AAC9A05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1820" y="1056" name="inst_85045D8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1840" y="1056" name="inst_A4B0ED2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1860" y="1056" name="inst_B55DAE09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1880" y="1056" name="inst_3C8E3F1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1900" y="1056" name="inst_E49D1A47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1920" y="1056" name="inst_7D99D2F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1940" y="1056" name="inst_B6E28230" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2260" y="1056" name="inst_ABE8EDEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2280" y="1056" name="inst_592570A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2300" y="1056" name="inst_65C33852" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2320" y="1056" name="inst_3FACDC16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2340" y="1056" name="inst_D9B1FFE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2360" y="1056" name="inst_0F826B1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2380" y="1056" name="inst_9FB8ED64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2400" y="1056" name="inst_5680108A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2420" y="1056" name="inst_BED59959" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2440" y="1056" name="inst_B19413AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2460" y="1056" name="inst_6B9BCA50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2480" y="1056" name="inst_07525D09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2500" y="1056" name="inst_365F26BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2520" y="1056" name="inst_F1FC083E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2540" y="1056" name="inst_74B20DBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2560" y="1056" name="inst_B5ED6F53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2580" y="1056" name="inst_134326BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2600" y="1056" name="inst_6B0EFDAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2620" y="1056" name="inst_4384487F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2640" y="1056" name="inst_16FE6A77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2660" y="1056" name="inst_E29223ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2680" y="1056" name="inst_4F0A4B3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2700" y="1056" name="inst_1EEBBDD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2720" y="1056" name="inst_C6F74359" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2740" y="1056" name="inst_05D5D0E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2760" y="1056" name="inst_E5E5A1D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2780" y="1056" name="inst_5EA64E83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2800" y="1056" name="inst_EAB12A6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2820" y="1056" name="inst_D2F334B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2840" y="1056" name="inst_F8E80026" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2860" y="1056" name="inst_508EAFBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2880" y="1056" name="inst_E60AA0EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2900" y="1056" name="inst_DFC30ABA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="1360" y="1392" name="inst_429A7370" locked="0" code="" scaleX="11" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1460" y="1344" name="inst_24AC1E45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1480" y="1344" name="inst_C3A54AF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1500" y="1344" name="inst_31A11787" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1520" y="1344" name="inst_3C4A6009" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWeightp" x="176" y="656" name="inst_F029162A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1560" y="1344" name="inst_E4237C19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1580" y="1344" name="inst_66EABE15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1600" y="1344" name="inst_428EF200" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1620" y="1344" name="inst_DE1C4C92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1640" y="1344" name="inst_CCE8A672" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1660" y="1344" name="inst_4DC5359B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1680" y="1344" name="inst_029197DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1700" y="1344" name="inst_9623259C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1720" y="1344" name="inst_EF0181CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1740" y="1344" name="inst_736AFDB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1760" y="1344" name="inst_4C2F102B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1780" y="1344" name="inst_6A83A8AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1800" y="1344" name="inst_631BEF38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1820" y="1344" name="inst_D997049A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1840" y="1344" name="inst_4DD6097E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1860" y="1344" name="inst_0F61F46D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1880" y="1344" name="inst_9AD97326" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1900" y="1344" name="inst_A3118F47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1920" y="1344" name="inst_BD55F767" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1940" y="1344" name="inst_88E8616F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1960" y="1344" name="inst_BD91CD33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1980" y="1344" name="inst_ACDCCB3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2000" y="1344" name="inst_E6CF6AB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2020" y="1344" name="inst_015AC69C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2040" y="1344" name="inst_FA58C587" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2060" y="1344" name="inst_F92DE83B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2080" y="1344" name="inst_B499DC75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2100" y="1344" name="inst_CC15E712" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2120" y="1344" name="inst_D86BCA5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2140" y="1344" name="inst_019358AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2160" y="1344" name="inst_592B9F93" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1240" y="1056" name="inst_6CC37046" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1220" y="1056" name="inst_B72C0118" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1200" y="1056" name="inst_53C44AEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1160" y="1056" name="inst_8AAD76EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="checkpoint" x="2048" y="1456" name="inst_ED18F2D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallFade" x="2688" y="1504" name="inst_0A6536CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallDown" x="1100" y="1632" name="inst_5F1DD9D6" locked="0" code="" scaleX="3.23000001907349" scaleY="1.01999998092651" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="60" y="2256" name="inst_B8D7CE31" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="90"/>
+    <instance objName="oWallFade" x="2128" y="1504" name="inst_C26525B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallFade" x="2208" y="1504" name="inst_8DA8F92F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallFade" x="2288" y="1504" name="inst_70E81E1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallFade" x="2368" y="1504" name="inst_8AD82D14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallFade" x="2448" y="1504" name="inst_D3279069" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallFade" x="2528" y="1504" name="inst_C3EDD857" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallFade" x="2608" y="1504" name="inst_B5E57B71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1100" y="1584" name="inst_F48BA939" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1120" y="1584" name="inst_2A4D4458" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1140" y="1584" name="inst_3DD99AC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1160" y="1584" name="inst_C260E03B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1180" y="1584" name="inst_752E88BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1200" y="1584" name="inst_422CF58A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1220" y="1584" name="inst_1ABAB2B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1240" y="1584" name="inst_FDDBAE85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1260" y="1584" name="inst_FC136642" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1280" y="1584" name="inst_32FEC7A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1300" y="1584" name="inst_AE8BEE9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1320" y="1584" name="inst_B2305299" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1340" y="1584" name="inst_29E7D0F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1360" y="1584" name="inst_8F24E433" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1380" y="1584" name="inst_9904E52E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1400" y="1584" name="inst_82B70C12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1420" y="1584" name="inst_4B6C08E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1440" y="1584" name="inst_68013C73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1460" y="1584" name="inst_7F4D855D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1480" y="1584" name="inst_E7B7FBDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1500" y="1584" name="inst_BDC79453" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1540" y="1584" name="inst_00F5CAA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1560" y="1584" name="inst_DFCB2CB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1580" y="1584" name="inst_C5396688" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1600" y="1584" name="inst_808812B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1620" y="1584" name="inst_288CAB08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1640" y="1584" name="inst_4193A764" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1680" y="1584" name="inst_97D4989B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1700" y="1584" name="inst_97D3B5AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1720" y="1584" name="inst_74DC4956" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1520" y="1584" name="inst_8454F6B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1660" y="1584" name="inst_DBB981D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1740" y="1584" name="inst_B16DDACA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1760" y="1584" name="inst_7962B787" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1780" y="1584" name="inst_16FD9432" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1800" y="1584" name="inst_4F48320C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1820" y="1584" name="inst_73E3C121" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1840" y="1584" name="inst_1876C86A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1860" y="1584" name="inst_E707684C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1880" y="1584" name="inst_068E6C5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1900" y="1584" name="inst_4A137530" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1920" y="1584" name="inst_BE6401C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1940" y="1584" name="inst_40500838" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1960" y="1584" name="inst_2DBB0CF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1980" y="1584" name="inst_0817C052" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2000" y="1584" name="inst_5692A7C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="2000" y="1584" name="inst_D42A2580" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallMoveable" x="1080" y="1536" name="inst_09E1FAEF" locked="0" code="xs = x-10;&#xA;ys = y;&#xA;spd = 2;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallMoveable" x="960" y="1536" name="inst_C1A6401A" locked="0" code="xs = x-10;&#xA;ys = y;&#xA;spd = 2;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallMoveable" x="840" y="1536" name="inst_DBBA0E17" locked="0" code="xs = x-10;&#xA;ys = y;&#xA;spd = 2;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallMoveable" x="720" y="1536" name="inst_09149092" locked="0" code="xs = x-10;&#xA;ys = y;&#xA;spd = 2;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="580" y="1392" name="inst_2A102AA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="600" y="1392" name="inst_1459BDD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="620" y="1392" name="inst_A18824B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="640" y="1392" name="inst_6ADBDE8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="660" y="1392" name="inst_E6695E78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="680" y="1392" name="inst_33BB6AE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="700" y="1392" name="inst_58A8E9B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="720" y="1392" name="inst_B05C1FA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="740" y="1392" name="inst_7DA9950D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="760" y="1392" name="inst_AA5F3DEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="780" y="1392" name="inst_D75A2C63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="800" y="1392" name="inst_5AB82A81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="820" y="1392" name="inst_DD9F1A9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="840" y="1392" name="inst_E644C1AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="860" y="1392" name="inst_86639F21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="880" y="1392" name="inst_1820791B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="900" y="1392" name="inst_B8A54E5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="920" y="1392" name="inst_23B5390C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="940" y="1392" name="inst_7B3BF50E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="960" y="1392" name="inst_4F5E2ABF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="980" y="1392" name="inst_7F80857F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1000" y="1392" name="inst_E02794CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1020" y="1392" name="inst_A183BD39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1040" y="1392" name="inst_85D116EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1060" y="1392" name="inst_C16189B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1080" y="1392" name="inst_1969073A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1100" y="1392" name="inst_2E93A904" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1120" y="1392" name="inst_1E359B5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1140" y="1392" name="inst_A4183626" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1160" y="1392" name="inst_2AB20CA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1180" y="1392" name="inst_2544DA82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1200" y="1392" name="inst_4C96C577" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1220" y="1392" name="inst_CCA44202" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1240" y="1392" name="inst_711DD028" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1260" y="1392" name="inst_13A8D86C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1280" y="1392" name="inst_260DAAD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1300" y="1392" name="inst_652C7BA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1320" y="1392" name="inst_2D1404B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1340" y="1392" name="inst_23D2D353" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="560" y="1392" name="inst_33A03B81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="540" y="1392" name="inst_FC334EDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="520" y="1392" name="inst_A52A0BC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="500" y="1392" name="inst_2D5BF31A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="480" y="1392" name="inst_48ACE5AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="460" y="1392" name="inst_BACD86C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="440" y="1392" name="inst_92173954" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="420" y="1392" name="inst_7EFE2B32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="380" y="1440" name="inst_0B5DFFE4" locked="0" code="" scaleX="12.25" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="380" y="1392" name="inst_B1AA793C" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="640" y="1584" name="inst_E314D3BA" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="720" y="1920" name="inst_F43AE0A2" locked="0" code="" scaleX="5.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="1100" y="1680" name="inst_FC84950F" locked="0" code="" scaleX="0.75" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="oWallEnergyBreather" x="16" y="1536" name="inst_8356407C" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="oWallEnergyBreather" x="16" y="1920" name="inst_19AA8E49" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="oWallEnergyBreather" x="16" y="2048" name="inst_1461BBC3" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="oWallEnergyBreather" x="16" y="1792" name="inst_68AD453B" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="oWallBarricade" x="288" y="1584" name="inst_371735A2" locked="0" code="" scaleX="1.69230771064758" scaleY="2.40000009536743" colour="4294967295" rotation="0"/>
+    <instance objName="oFinish" x="240" y="2112" name="inst_7D140B92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="284" y="1584" name="inst_E04EA0EC" locked="0" code="" scaleX="4.44999980926514" scaleY="1.08333337306976" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="240" y="1632" name="inst_93E5D55E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="240" y="1664" name="inst_EBD79B76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="240" y="1696" name="inst_EC1130E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="240" y="1728" name="inst_A54ABB8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="240" y="1760" name="inst_7B8D7CDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="240" y="1792" name="inst_DF677208" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="240" y="1824" name="inst_25AC4263" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="240" y="1856" name="inst_103C3EAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="240" y="1888" name="inst_F0EA719C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="240" y="1904" name="inst_59F7BEF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="240" y="1936" name="inst_4AF70F42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="240" y="1968" name="inst_0C87F6D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="240" y="2000" name="inst_DE5048B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="240" y="2032" name="inst_625641BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallEnergyBreather" x="16" y="1664" name="inst_9847F626" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="tlacitko" x="336" y="1584" name="inst_CE08312B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="720" y="1872" name="inst_8B9FFCEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="740" y="1872" name="inst_699FB13E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="760" y="1872" name="inst_A5EEFDAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="780" y="1872" name="inst_4E017FF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="800" y="1872" name="inst_FF410A63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="820" y="1872" name="inst_52472B69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="840" y="1872" name="inst_6ADA81B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="860" y="1872" name="inst_48BB4491" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="880" y="1872" name="inst_FB4A24AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="900" y="1872" name="inst_08A0EF23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="920" y="1872" name="inst_0B8471CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="940" y="1872" name="inst_B1D9AD14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="960" y="1872" name="inst_CF82117C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="980" y="1872" name="inst_1C85EC27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1000" y="1872" name="inst_536285F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1020" y="1872" name="inst_4B837F68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1040" y="1872" name="inst_4E1E48C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpike" x="1060" y="1872" name="inst_E9A313D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
