@@ -29,6 +29,7 @@
 
 //instance_create(x,y,oLight)
 instance_create(x,y,oCheckpointSystem);
+instance_create(x,y,oOptimalizace);
 
 coins = 0;
 can_move = 1;

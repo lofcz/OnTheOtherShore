@@ -166,6 +166,7 @@
     <object>objects\oEnergyball</object>
     <object>objects\oFreezeScreen</object>
     <object>objects\oCheckpointSystem</object>
+    <object>objects\oOptimalizace</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline1</timeline>
