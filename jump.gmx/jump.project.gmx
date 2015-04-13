@@ -95,6 +95,8 @@
     <script>scripts\scrEffectSpark.gml</script>
     <script>scripts\scrEnergybreather.gml</script>
     <script>scripts\DecToHex.gml</script>
+    <script>scripts\scrTextEngineSetUp.gml</script>
+    <script>scripts\scrTextEngineSetUpAlpha.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shdColor.shader</shader>
@@ -167,16 +169,18 @@
     <object>objects\oFreezeScreen</object>
     <object>objects\oCheckpointSystem</object>
     <object>objects\oOptimalizace</object>
+    <object>objects\oTextSpeciIntro</object>
     <object>objects\object62</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline1</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\mapLevel6</room>
     <room>rooms\mapLevel1</room>
+    <room>rooms\mapIntro</room>
     <room>rooms\mapLevel8</room>
     <room>rooms\mapLevel9</room>
-    <room>rooms\mapLevel6</room>
     <room>rooms\mapLevel3_real</room>
     <room>rooms\mapLevel3</room>
     <room>rooms\mapLevel2_real</room>

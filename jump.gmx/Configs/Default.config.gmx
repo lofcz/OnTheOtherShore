@@ -417,5 +417,13 @@
     <option_xbone_splash_screen_colour>#FFFFFF</option_xbone_splash_screen_colour>
     <option_xbone_texture_page>1024</option_xbone_texture_page>
   </Options>
-  <ConfigConstants/>
+  <ConfigConstants>
+    <constants number="5">
+      <constant name="m_alpha">4</constant>
+      <constant name="m_tick">3</constant>
+      <constant name="m_size">2</constant>
+      <constant name="m_color">1</constant>
+      <constant name="m_text">0</constant>
+    </constants>
+  </ConfigConstants>
 </Config>
