@@ -418,7 +418,9 @@
     <option_xbone_texture_page>1024</option_xbone_texture_page>
   </Options>
   <ConfigConstants>
-    <constants number="5">
+    <constants number="7">
+      <constant name="m_y">6</constant>
+      <constant name="m_x">5</constant>
       <constant name="m_alpha">4</constant>
       <constant name="m_tick">3</constant>
       <constant name="m_size">2</constant>

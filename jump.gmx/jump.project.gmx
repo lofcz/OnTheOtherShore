@@ -96,7 +96,7 @@
     <script>scripts\scrEnergybreather.gml</script>
     <script>scripts\DecToHex.gml</script>
     <script>scripts\scrTextEngineSetUp.gml</script>
-    <script>scripts\scrTextEngineSetUpAlpha.gml</script>
+    <script>scripts\scrTextEngineSetUpDefaults.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shdColor.shader</shader>
@@ -176,9 +176,9 @@
     <timeline>timelines\timeline1</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\mapIntro</room>
     <room>rooms\mapLevel6</room>
     <room>rooms\mapLevel1</room>
-    <room>rooms\mapIntro</room>
     <room>rooms\mapLevel8</room>
     <room>rooms\mapLevel9</room>
     <room>rooms\mapLevel3_real</room>
