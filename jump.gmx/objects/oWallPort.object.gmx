@@ -28,6 +28,7 @@
             <string>event_inherited()
 player = 0;
 k = 0;
+draw = 1;
 image_speed = 0;
 scrColorShaderCreate(1,1,1,1,(153/255),(102/255),0.2,1,10);
 instance_create(x+40,y+20,oPortHelper)
@@ -60,7 +61,7 @@ Sname = part_system_create();
 if (player = 1)
    {
    k_p = 1;
-if (k&gt;= 255) {image_index = 1;} else {image_index = 0;}   
+if (k&gt;= 255) {image_index = 1; scrPlayerStopDraw() scrPlayerMove(xx,yy)} else {image_index = 0;}   
 if (k&lt;255){ k += 2; scrEffectTeleport()}
    }
    else {image_index = 0; if (k &gt; 0) {k-= 2;} else {if (k_p = 1) {k_p = 0;}}}
