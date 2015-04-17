@@ -25,9 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>event_inherited()
+            <string>/// Declare variables
 
-//instance_create(x,y,oLight)
+event_inherited()
+
 instance_create(x,y,oCheckpointSystem);
 instance_create(x,y,oOptimalizace);
 
@@ -44,9 +45,9 @@ aa = 1
 hp_curr = hp;
 dis_port =  0;
 v_rychlost = 12;
-max_trail_parts = 15; //number of trail sections
-trail_count = -1; //used for first few steps
-trail_col = c_yellow; //color of trail
+max_trail_parts = 15; 
+trail_count = -1; 
+trail_col = c_yellow;
 
   length = 30;
     w1 = 5;
@@ -83,7 +84,9 @@ trail_col = c_yellow; //color of trail
         <arguments>
           <argument>
             <kind>1</kind>
-            <string> ds_grid_destroy(trail);
+            <string>/// Free RAM
+
+ds_grid_destroy(trail);
 </string>
           </argument>
         </arguments>
@@ -106,7 +109,9 @@ trail_col = c_yellow; //color of trail
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_restart();
+            <string>/// Restart room
+
+room_restart();
 </string>
           </argument>
         </arguments>
@@ -129,7 +134,9 @@ trail_col = c_yellow; //color of trail
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>event_user(0);
+            <string>/// Suicide
+
+event_user(0);
 </string>
           </argument>
         </arguments>
@@ -152,7 +159,9 @@ trail_col = c_yellow; //color of trail
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw = 1;
+            <string>/// Draw trail again
+
+draw = 1;
 </string>
           </argument>
         </arguments>
@@ -175,7 +184,9 @@ trail_col = c_yellow; //color of trail
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>speed = 0;
+            <string>/// Restart position
+
+speed = 0;
 x = xstart
 y = ystart
 
@@ -201,7 +212,7 @@ y = ystart
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Natáčení obrazovky
+            <string>/// Screen rotate
 w1 = 4+weight
 event_inherited()
 unstick(16)
@@ -231,7 +242,7 @@ if (hp_curr != hp) {show_message("")}
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Dráha
+            <string>/// Update trail
     trail_update(trail,x,y);
     trail_drift(trail,xdrift,ydrift);
     trail_scatter(trail,xscatter,yscatter);
@@ -256,17 +267,19 @@ if (hp_curr != hp) {show_message("")}
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Pohyb + akce
+            <string>/// Move &amp; actions
 
 if (can_move)
 {
 
-var __move = ((keyboard_check(vk_right)+keyboard_check(ord("D")))-(keyboard_check(vk_left)+keyboard_check(ord("A"))));
-if __move &gt; 0 &amp;&amp; hspd &lt; 8 {
+__move = ((keyboard_check(vk_right)+keyboard_check(ord("D")))-(keyboard_check(vk_left)+keyboard_check(ord("A"))));
+if (__move &gt; 0 &amp;&amp; hspd &lt; 8) {
  hspd = min(hspd+2,8);
-} else if __move &lt; 0 &amp;&amp; hspd &gt; -8 {
+} else if (__move &lt; 0 &amp;&amp; hspd &gt; -8) {
  hspd = max(hspd-2,-8);
 }
+
+
 if (hp&lt;=0) {event_user(0);}
 if ( (keyboard_check_pressed(vk_up) || keyboard_check(ord("W"))) &amp;&amp; inAir == false) {
  vspd = -v_rychlost;
@@ -301,11 +314,11 @@ if (keyboard_check_pressed(ord("R")))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with(oEnergyball) {instance_destroy()}
+            <string>/// Suicide system
 
 if (oCheckpointSystem.StateSaved)
     {
-
+    scrPlayerStopDraw();
     with(oCheckpointSystem)
     {
     game_load("save.otos")
@@ -316,7 +329,6 @@ if (oCheckpointSystem.StateSaved)
     {
     if (can_move = 1)
     {
-    show_message("");
     can_move = 0;
     screffectRestart()
     room_restart();
@@ -324,32 +336,6 @@ if (oCheckpointSystem.StateSaved)
     }
     
 </string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="7" enumb="2">
-      <action>
-        <libid>1</libid>
-        <id>211</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_sound</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>6</kind>
-            <sound>free_falling</sound>
-          </argument>
-          <argument>
-            <kind>3</kind>
-            <string>1</string>
           </argument>
         </arguments>
       </action>
@@ -371,7 +357,9 @@ if (oCheckpointSystem.StateSaved)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (can_move = 1)
+            <string>/// Suicide
+
+if (can_move = 1)
 {
 event_user(0)
 }
@@ -397,7 +385,9 @@ event_user(0)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (can_move &amp;&amp; draw = 1)
+            <string>/// Draw self
+
+if (can_move &amp;&amp; draw = 1)
 {
 draw_trail(trail,w1,w2,c1,c2,a1,a2);
 draw_set_colour(c_white)
@@ -406,8 +396,6 @@ if (abs(view_angle) = 360)
     view_angle = 0;
    }
 }
-//draw_sprite(sHealthBar,0,view_xview,view_yview)
-//draw_sprite_part(sHealthBar,1,0,0,(sprite_get_width(sHealthBar)*(hp/max_hp)),sprite_get_width(sHealthBar),view_xview,view_yview)
 
 </string>
           </argument>

@@ -20,6 +20,6 @@
   <width>80</width>
   <height>48</height>
   <frames>
-    <frame index="0">images\sWallTinyMoved_0.png</frame>
+    <frame index="0">images\sWallTinyMoveCart_0.png</frame>
   </frames>
 </sprite>

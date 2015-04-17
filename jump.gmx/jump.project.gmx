@@ -21,7 +21,7 @@
       <sprite>sprites\sWallTinyHazard</sprite>
       <sprite>sprites\sWallPort</sprite>
       <sprite>sprites\sWallTinySpecial</sprite>
-      <sprite>sprites\sWallTinyMoved</sprite>
+      <sprite>sprites\sWallTinyMoveCart</sprite>
       <sprite>sprites\sWallPrecise</sprite>
       <sprite>sprites\sWallHazard</sprite>
       <sprite>sprites\oWallTinyColored</sprite>
@@ -132,7 +132,7 @@
       <object>objects\oWallGlass</object>
       <object>objects\oWallStatic</object>
       <object>objects\oWallMoveable</object>
-      <object>objects\oWallMoved</object>
+      <object>objects\oWallMoveableCart</object>
       <object>objects\oWallEnergyBreather</object>
       <object>objects\oWallStaticGravity</object>
       <object>objects\oWallStaticGravityBouncy</object>
