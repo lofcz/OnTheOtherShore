@@ -59,7 +59,7 @@ draw_rectangle(0,0,80+((80*image_xscale)-80),48+((48*image_yscale)-48),1) //+(80
 draw_set_color(c_black)
 draw_rectangle(2,2,80+((80*image_xscale)-80)-2,48+((48*image_yscale)-48)-2,0) //+(80*image_xscale) 
 
-//draw_rectangle(x,y,x+(80*image_xscale),y+(48*image_yscale),1)
+
 d3d_transform_set_identity()
 
 

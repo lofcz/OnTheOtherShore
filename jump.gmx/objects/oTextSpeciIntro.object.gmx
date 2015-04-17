@@ -76,7 +76,7 @@ for (a=0 a&lt;lenght a++)
     str[a,m_x] = lenght_temp+xx;
     str[a,m_y] = yy;
 
-   lenght_temp += string_width(str[a,m_text])//(string_width(str[a,m_text])-(9*(a+1)+a-1))
+   lenght_temp += string_width(str[a,m_text])
 
 
     width = string_length(str[a,m_text])
@@ -148,7 +148,8 @@ if (tick &gt;= str[a,m_tick])
        }
    
    draw_set_alpha(str[a,m_alpha]); 
-   draw_set_colour(str[a,m_color]);   
+   draw_set_colour(str[a,m_color]); 
+   draw_set_font(-1);  
    draw_text(str[a,m_x],str[a,m_y],str[a,m_text]) ;
    }
   

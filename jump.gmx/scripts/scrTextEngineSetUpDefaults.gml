@@ -12,4 +12,3 @@ if (a>0){str[a,m_tick] = str[a-1,m_tick]+40;}
 
 
 
-
