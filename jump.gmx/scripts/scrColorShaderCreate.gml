@@ -25,4 +25,3 @@ r = r_o;
 g = g_o;
 b = b_o;
 alpha = alpha_o;
-

@@ -62,7 +62,7 @@
     <instance objName="oFinish" x="3104" y="480" name="inst_FA34FCC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallDown" x="1056" y="160" name="inst_5E9516CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallFade" x="2896" y="560" name="inst_8822DF46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="checkpoint" x="1264" y="32" name="inst_90536F1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCheckpoint" x="1264" y="32" name="inst_90536F1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallBigJump" x="1568" y="288" name="inst_FBFED168" locked="0" code="skok = 20;&#xA;" scaleX="1.39999997615814" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallDown" x="2976" y="560" name="inst_A8487A88" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallDown" x="2016" y="288" name="inst_F7C4B623" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

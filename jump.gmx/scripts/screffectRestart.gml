@@ -34,4 +34,3 @@ emitter1 = part_emitter_create(Sname);
 part_emitter_region(Sname,emitter1,x,x,y,y,0,0);
 part_emitter_burst(Sname,emitter1,particle2,20);
 
-

@@ -1,4 +1,4 @@
-///scrPlayerStopDraw(number);
+///scrPlayerStopDraw(steps);
 number = 1;
 if (argument_count > 0)
    {

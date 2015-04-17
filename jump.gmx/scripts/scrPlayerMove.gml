@@ -12,4 +12,3 @@ if (argument_count > 1)
    
 oPlayer.x = x_t;
 oPlayer.y = y_t;
-

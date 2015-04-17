@@ -265,7 +265,10 @@ var i, steps, xx, yy, radius;
 
 
 
+ 
 */
+
+/*
 if (draw = 1 &amp;&amp; ride = 1)
 {
 xa = (xss-k_x);
@@ -294,6 +297,8 @@ for (i = 0; i&lt;= (width_y)-1; i+=2)
 draw_primitive_end(); 
 draw_set_alpha(1)
 }
+
+*/
 </string>
           </argument>
         </arguments>

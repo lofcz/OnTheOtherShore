@@ -113,4 +113,3 @@ if entity_collision == true {
 
 //Clean up
 ds_list_clear(onMeList);
-
