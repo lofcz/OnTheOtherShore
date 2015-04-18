@@ -247,7 +247,7 @@ if (instance_number(oPlayer) &gt; 0)
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="oWallGlass">
+    <event eventtype="4" ename="oWallStatic">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -270,7 +270,7 @@ if (instance_number(oPlayer) &gt; 0)
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="oWallStatic">
+    <event eventtype="4" ename="oWallGlass">
       <action>
         <libid>1</libid>
         <id>603</id>

@@ -57,7 +57,7 @@
     <instance objName="oPlayer" x="1504" y="1888" name="inst_466C8CA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="1296" y="2080" name="inst_CE4DC800" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallMoveableCart" x="1472" y="2448" name="inst_DA389B0B" locked="0" code="xs = x+300;&#xA;ys = y;&#xA;spd = 2;&#xA;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWallStatic" x="1184" y="1968" name="inst_3104050E" locked="0" code="" scaleX="0.600000023841858" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="1464" y="2072" name="inst_E6DBB7BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="1184" y="2448" name="inst_35EA19A2" locked="0" code="xs = x;&#xA;ys = 2944;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCheckpoint" x="1376" y="2320" name="inst_628E05F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallGlass" x="2112" y="2448" name="inst_A8358C87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -77,6 +77,8 @@
     <instance objName="oWallStatic" x="1832" y="1760" name="inst_0235AEC3" locked="0" code="" scaleX="0.200000002980232" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="1752" y="1696" name="inst_9137E2E5" locked="0" code="" scaleX="0.200000002980232" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="1832" y="1648" name="inst_52E1E960" locked="0" code="" scaleX="0.200000002980232" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="1152" y="2056" name="inst_A29B7802" locked="0" code="" scaleX="0.25" scaleY="9.17000007629395" colour="4294967295" rotation="0"/>
+    <instance objName="oWallSpeedMove" x="1152" y="2496" name="inst_2803240D" locked="0" code="" scaleX="0.25" scaleY="7.17000007629395" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

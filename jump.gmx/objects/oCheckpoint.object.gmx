@@ -82,12 +82,16 @@ if (taken = 0)
             <kind>1</kind>
             <string>if (taken = 0)
 {
+with(oEnergyball) {instance_destroy();}
+oPlayer.hp = 100;
 taken = 1;
 with(oCheckpointSystem)
 {
 game_save("save.otos");
 StateSaved = 1;
  }
+ 
+
 }
 </string>
           </argument>

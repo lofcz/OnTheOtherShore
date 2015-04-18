@@ -56,6 +56,7 @@
       <sprite>sprites\sPortHelper</sprite>
       <sprite>sprites\sFinish</sprite>
     </sprites>
+    <sprite>sprites\sNoColl</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Backgrounds">
@@ -131,6 +132,7 @@
       <object>objects\oWallDown</object>
       <object>objects\oWallGlass</object>
       <object>objects\oWallStatic</object>
+      <object>objects\oWallSpeedMove</object>
       <object>objects\oWallMoveable</object>
       <object>objects\oWallMoveableCart</object>
       <object>objects\oWallEnergyBreather</object>
@@ -176,7 +178,8 @@
       </objects>
       <objects name="Text">
         <object>objects\oText</object>
-        <object>objects\oTextSpeciIntro</object>
+        <object>objects\oTextSpeciNew</object>
+        <object>objects\oTextSpeciNew1</object>
         <object>objects\oTextSpeci1</object>
         <object>objects\oTextSpeci2</object>
         <object>objects\oTextSpeci3</object>
@@ -193,16 +196,15 @@
       <object>objects\oCutsceneText</object>
     </objects>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
+    <room>rooms\mapLevel8</room>
     <room>rooms\mapLevel3_real</room>
     <rooms name="Progress">
       <room>rooms\mapLevel2</room>
       <room>rooms\mapLevel7</room>
       <room>rooms\mapLevel4</room>
-      <room>rooms\mapLevel3</room>
-      <room>rooms\mapLevel8</room>
       <room>rooms\mapLevel9</room>
+      <room>rooms\mapLevel3</room>
       <room>rooms\mapLevel6</room>
     </rooms>
     <rooms name="Done">

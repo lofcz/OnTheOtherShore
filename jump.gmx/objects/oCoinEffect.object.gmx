@@ -28,7 +28,7 @@
             <string>direction = random(359)
 spd = random_range(1,2)
 image_angle = random(359)
-//alarm[0] = random_range(20,40);
+alarm[0] = random_range(20,40);
 mode = 1;
 
 
@@ -100,13 +100,9 @@ mode = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//speed = spd;
+            <string>speed = spd;
 spd -= 0.01;
 
-if (keyboard_check(ord("W"))){
-physics_apply_local_force(0, 0, 350, 0)
-show_message("");
-}
 
 
 if (instance_number(oPlayer) &gt; 0)
@@ -146,7 +142,7 @@ if (mode = 2) {if (image_xscale &gt; 0) {image_xscale -= 0.02; image_yscale = im
       </action>
     </event>
   </events>
-  <PhysicsObject>-1</PhysicsObject>
+  <PhysicsObject>0</PhysicsObject>
   <PhysicsObjectSensor>-1</PhysicsObjectSensor>
   <PhysicsObjectShape>0</PhysicsObjectShape>
   <PhysicsObjectDensity>0</PhysicsObjectDensity>
@@ -157,8 +153,5 @@ if (mode = 2) {if (image_xscale &gt; 0) {image_xscale -= 0.02; image_yscale = im
   <PhysicsObjectFriction>0</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>-1</PhysicsObjectKinematic>
-  <PhysicsShapePoints>
-    <point>16,18</point>
-    <point>16,16</point>
-  </PhysicsShapePoints>
+  <PhysicsShapePoints/>
 </object>

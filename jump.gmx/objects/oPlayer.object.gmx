@@ -326,13 +326,9 @@ if (oCheckpointSystem.StateSaved)
     
     }
     else 
-    {
-    if (can_move = 1)
-    {
-    can_move = 0;
+    {   
     screffectRestart()
     room_restart();
-    }
     }
     
 </string>
