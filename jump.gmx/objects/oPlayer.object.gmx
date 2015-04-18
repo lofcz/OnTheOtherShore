@@ -31,7 +31,7 @@ event_inherited()
 
 instance_create(x,y,oCheckpointSystem);
 instance_create(x,y,oOptimalizace);
-instance_create(x,y,oTextLevelName);
+//instance_create(x,y,oTextLevelName);
 
 coins = 0;
 can_move = 1;
