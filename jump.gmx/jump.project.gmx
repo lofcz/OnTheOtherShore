@@ -32,6 +32,7 @@
     </sprites>
     <sprites name="Interact-ables">
       <sprite>sprites\sCoin</sprite>
+      <sprite>sprites\sCoin2</sprite>
       <sprite>sprites\sCoinBig</sprite>
       <sprite>sprites\sCoinWhite</sprite>
       <sprite>sprites\sTurn90</sprite>
@@ -70,6 +71,8 @@
   <scripts name="scripts">
     <scripts name="Effects">
       <script>scripts\scrEffectCoin.gml</script>
+      <script>scripts\scrEffectCoin2.gml</script>
+      <script>scripts\scrEffectCoin3.gml</script>
       <script>scripts\scrEffectRing.gml</script>
       <script>scripts\scrEffectRing2.gml</script>
       <script>scripts\scrEffectSpark.gml</script>
@@ -206,8 +209,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\mapLevel1_real</room>
     <room>rooms\mapLevel3_real</room>
+    <room>rooms\mapLevel1_real</room>
     <room>rooms\mapLevel8</room>
     <rooms name="Progress">
       <room>rooms\mapLevel2</room>

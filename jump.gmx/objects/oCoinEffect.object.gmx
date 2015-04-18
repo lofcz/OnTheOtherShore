@@ -77,7 +77,7 @@ mode = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (mode = 1) {mode = 2; scrEffectCoin();}
+            <string>if (mode = 1) {mode = 2; scrEffectCoin2();}
 </string>
           </argument>
         </arguments>
@@ -153,5 +153,8 @@ if (mode = 2) {if (image_xscale &gt; 0) {image_xscale -= 0.02; image_yscale = im
   <PhysicsObjectFriction>0</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>-1</PhysicsObjectKinematic>
-  <PhysicsShapePoints/>
+  <PhysicsShapePoints>
+    <point>16,18</point>
+    <point>16,16</point>
+  </PhysicsShapePoints>
 </object>
