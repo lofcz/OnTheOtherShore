@@ -58,6 +58,8 @@
     </sprites>
     <sprite>sprites\sNoColl</sprite>
     <sprite>sprites\sCutMask</sprite>
+    <sprite>sprites\sLevel1</sprite>
+    <sprite>sprites\sLevelName</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Backgrounds">
@@ -181,6 +183,7 @@
       <objects name="Text">
         <object>objects\oText</object>
         <object>objects\oTextSpeciNew</object>
+        <object>objects\oTextLevelName</object>
         <object>objects\oTextSpeciNew1</object>
         <object>objects\oTextSpeci1</object>
         <object>objects\oTextSpeci2</object>
@@ -190,6 +193,10 @@
         <object>objects\oTextSpeci6</object>
         <object>objects\oTextSpeci7</object>
       </objects>
+      <objects name="Effects">
+        <object>objects\oCutMask</object>
+        <object>objects\oParticle</object>
+      </objects>
       <object>objects\oLogic</object>
       <object>objects\oLight</object>
       <object>objects\oOptimalizace</object>
@@ -197,10 +204,9 @@
       <object>objects\oCheckpointSystem</object>
       <object>objects\oCutsceneText</object>
     </objects>
-    <object>objects\oCutMask</object>
-    <object>objects\oParticle</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\mapLevel1_real</room>
     <room>rooms\mapLevel3_real</room>
     <room>rooms\mapLevel8</room>
     <rooms name="Progress">
@@ -212,7 +218,6 @@
       <room>rooms\mapLevel6</room>
     </rooms>
     <rooms name="Done">
-      <room>rooms\mapLevel1_real</room>
       <room>rooms\mapLevel2_real</room>
     </rooms>
     <rooms name="Cutscenes">

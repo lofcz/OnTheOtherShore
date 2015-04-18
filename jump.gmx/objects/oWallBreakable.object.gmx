@@ -124,7 +124,7 @@ instance_create(oPlayer.x,oPlayer.y,oCutMask);
             <kind>1</kind>
             <string>/// geniální!
 
-draw_set_colour(c_dkgray)
+draw_set_colour(c_gray)
 d3d_transform_set_rotation_z(image_angle)
 d3d_transform_add_translation(x,y,0)
 draw_rectangle(0,0,80*image_xscale,48*image_yscale,1) //+(80*image_xscale) 
