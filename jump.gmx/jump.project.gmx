@@ -24,7 +24,7 @@
       <sprite>sprites\sWallTinyMoveCart</sprite>
       <sprite>sprites\sWallPrecise</sprite>
       <sprite>sprites\sWallHazard</sprite>
-      <sprite>sprites\oWallTinyColored</sprite>
+      <sprite>sprites\sWallTinyColored</sprite>
       <sprite>sprites\sWallTinyDown</sprite>
       <sprite>sprites\sWallBigJump</sprite>
       <sprite>sprites\sWallBarricade</sprite>
@@ -57,6 +57,7 @@
       <sprite>sprites\sFinish</sprite>
     </sprites>
     <sprite>sprites\sNoColl</sprite>
+    <sprite>sprites\sCutMask</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Backgrounds">
@@ -132,6 +133,7 @@
       <object>objects\oWallDown</object>
       <object>objects\oWallGlass</object>
       <object>objects\oWallStatic</object>
+      <object>objects\oWallBreakable</object>
       <object>objects\oWallSpeedMove</object>
       <object>objects\oWallMoveable</object>
       <object>objects\oWallMoveableCart</object>
@@ -195,10 +197,12 @@
       <object>objects\oCheckpointSystem</object>
       <object>objects\oCutsceneText</object>
     </objects>
+    <object>objects\oCutMask</object>
+    <object>objects\oParticle</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\mapLevel8</room>
     <room>rooms\mapLevel3_real</room>
+    <room>rooms\mapLevel8</room>
     <rooms name="Progress">
       <room>rooms\mapLevel2</room>
       <room>rooms\mapLevel7</room>
