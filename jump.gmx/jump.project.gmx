@@ -18,6 +18,7 @@
       <sprite>sprites\sWall</sprite>
       <sprite>sprites\sWallTiny</sprite>
       <sprite>sprites\wall_small</sprite>
+      <sprite>sprites\sWallMini</sprite>
       <sprite>sprites\sWallTinyHazard</sprite>
       <sprite>sprites\sWallPort</sprite>
       <sprite>sprites\sWallTinySpecial</sprite>
@@ -136,6 +137,7 @@
     <object>objects\oPlayer</object>
     <objects name="Walls">
       <object>objects\oWallDown</object>
+      <object>objects\oWallDownMiny</object>
       <object>objects\oWallGlass</object>
       <object>objects\oWallStatic</object>
       <object>objects\oWallBreakable</object>
@@ -210,8 +212,8 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\mapLevel3_real</room>
-    <room>rooms\mapLevel1_real</room>
     <room>rooms\mapLevel8</room>
+    <room>rooms\mapLevel1_real</room>
     <rooms name="Progress">
       <room>rooms\mapLevel2</room>
       <room>rooms\mapLevel7</room>
