@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1456</w>
-    <h>876</h>
+    <w>1024</w>
+    <h>600</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>799</xoffset>
-    <yoffset>1165</yoffset>
+    <xoffset>299</xoffset>
+    <yoffset>357</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="oWallBarricade" x="1442" y="1600" name="inst_F855EE6C" locked="0" code="" scaleX="1.69000005722046" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="oButton" x="960" y="1536" name="inst_570CB224" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="oWallSpike" x="840" y="4368" name="inst_09497BD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="oCheckpoint" x="1344" y="1792" name="inst_48C0C9DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oPlayer" x="1480" y="1856" name="inst_311F560F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="1760" y="1800" name="inst_EB1D1128" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -101,7 +101,7 @@
     <instance objName="oWallSpike" x="1968" y="1400" name="inst_54EDDF04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="oWallSpike" x="1968" y="1420" name="inst_55E5E12C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="oWallBreakable" x="1904" y="1432" name="inst_44258DF3" locked="0" code="" scaleX="1.39999997615814" scaleY="0.829999983310699" colour="4294967295" rotation="0"/>
-    <instance objName="oWallBigJump" x="984" y="1952" name="inst_42289B01" locked="0" code="skok = 15&#xA;" scaleX="0.400000005960464" scaleY="0.200000002980232" colour="4294967295" rotation="270"/>
+    <instance objName="oWallBigJump" x="966" y="1952" name="inst_42289B01" locked="0" code="skok = 15&#xA;" scaleX="1.04999995231628" scaleY="0.680000007152557" colour="4294967295" rotation="270"/>
     <instance objName="oWallSpike" x="1968" y="1280" name="inst_52703A08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="oWallSpike" x="1968" y="1380" name="inst_247E3BDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="oWallSpike" x="1968" y="1360" name="inst_E528BB40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
@@ -328,7 +328,6 @@
     <instance objName="oWallSpike" x="800" y="4368" name="inst_0ABD4B2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="oWallSpike" x="780" y="4368" name="inst_A9EBD231" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="oWallSpike" x="820" y="4368" name="inst_F99FE719" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
-    <instance objName="oWallSpike" x="840" y="4368" name="inst_09497BD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -139,7 +139,11 @@ alarm[1] = 150;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>    if (instance_number(oPlayer) &gt; 0 &amp;&amp; oPlayer.hp&gt;0)
+            <string>if (ds_exists(trail,ds_type_grid))
+{
+
+    
+            if (instance_number(oPlayer) &gt; 0 &amp;&amp; oPlayer.hp&gt;0)
     {
         if (lock = 1) 
     {
@@ -173,6 +177,9 @@ if (instance_number(oPlayer) &gt; 0)
                       }
    }
    }
+   
+}
+else {instance_destroy()}
 </string>
           </argument>
         </arguments>
@@ -356,8 +363,12 @@ if (instance_number(oPlayer) &gt; 0)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_trail(trail,w1,w2,c1,c2,a1,a2);
+            <string>if (ds_exists(trail,ds_type_grid))
+{
 
+draw_trail(trail,w1,w2,c1,c2,a1,a2);
+}
+else {instance_destroy()}
 </string>
           </argument>
         </arguments>

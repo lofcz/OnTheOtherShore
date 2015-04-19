@@ -382,9 +382,7 @@ event_user(0)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Draw self
-
-if (can_move &amp;&amp; draw = 1)
+            <string>if (can_move &amp;&amp; draw = 1)
 {
 draw_trail(trail,w1,w2,c1,c2,a1,a2);
 draw_set_colour(c_white)
@@ -393,6 +391,8 @@ if (abs(view_angle) = 360)
     view_angle = 0;
    }
 }
+
+
 
 </string>
           </argument>
