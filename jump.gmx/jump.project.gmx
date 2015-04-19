@@ -7,7 +7,7 @@
   <sounds name="sound">
     <sound>sound\electrician</sound>
     <sound>sound\sndExplosion</sound>
-    <sound>sound\free_falling</sound>
+    <sound>sound\sndTheme1</sound>
     <sound>sound\Jump</sound>
     <sound>sound\Thunder</sound>
     <sound>sound\sndTlacitko</sound>
