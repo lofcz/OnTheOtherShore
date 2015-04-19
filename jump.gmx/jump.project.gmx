@@ -162,6 +162,7 @@
     </objects>
     <objects name="Interact-ables">
       <object>objects\oCoin</object>
+      <object>objects\oCoin2</object>
       <object>objects\oCoinBig</object>
       <object>objects\oCoinEffect</object>
       <object>objects\oWeightp</object>

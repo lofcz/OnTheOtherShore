@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>499</xoffset>
-    <yoffset>1646</yoffset>
+    <xoffset>2680</xoffset>
+    <yoffset>5659</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -56,7 +56,7 @@
     <instance objName="oTurn90pM" x="1344" y="1936" name="inst_CB74584C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oPlayer" x="1504" y="1888" name="inst_466C8CA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="1760" y="1800" name="inst_EB1D1128" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWallMoveableCart" x="1472" y="2448" name="inst_DA389B0B" locked="0" code="xs = x+300;&#xA;ys = y;&#xA;spd = 2;&#xA;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallMoveableCart" x="1540" y="2444" name="inst_DA389B0B" locked="0" code="xs = x+300;&#xA;ys = y;&#xA;spd = 2;&#xA;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallFade" x="1500" y="1328" name="inst_F8FEC790" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="1380" y="1316" name="inst_AFDDCDD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallSpike" x="1220" y="2084" name="inst_AF6AC7EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
@@ -78,7 +78,7 @@
     <instance objName="oWallStatic" x="1752" y="1696" name="inst_9137E2E5" locked="0" code="" scaleX="0.200000002980232" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="1832" y="1648" name="inst_52E1E960" locked="0" code="" scaleX="0.200000002980232" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="1152" y="2056" name="inst_A29B7802" locked="0" code="" scaleX="0.25" scaleY="9.17000007629395" colour="4294967295" rotation="0"/>
-    <instance objName="oWallSpeedMove" x="1152" y="2496" name="inst_2803240D" locked="0" code="" scaleX="0.25" scaleY="7.17000007629395" colour="4294967295" rotation="0"/>
+    <instance objName="oCoin" x="1928" y="1212" name="inst_3D60962F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="1928" y="1152" name="inst_A3B3F56B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="952" y="1128" name="inst_04BF86D1" locked="0" code="" scaleX="0.200000002980232" scaleY="15.5" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="968" y="1128" name="inst_071230E1" locked="0" code="" scaleX="12.6999998092651" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
@@ -97,7 +97,8 @@
     <instance objName="oWallStatic" x="968" y="1328" name="inst_156146CE" locked="0" code="" scaleX="2.79999995231628" scaleY="0.916666686534882" colour="4294967295" rotation="0"/>
     <instance objName="oButton" x="1024" y="1328" name="inst_8CDD4C8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="1928" y="1192" name="inst_A5A01FAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCoin" x="1928" y="1212" name="inst_3D60962F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="1152" y="2496" name="inst_239DFBF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oTurn90p" x="1200" y="2476" name="inst_CAEFE895" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
