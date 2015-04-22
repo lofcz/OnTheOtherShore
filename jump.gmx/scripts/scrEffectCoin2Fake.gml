@@ -5,7 +5,7 @@ particle1 = part_type_create();
 part_type_shape(particle1,pt_shape_flare);
 part_type_size(particle1,0.10,0.55,0,0.20);
 part_type_scale(particle1,1.11,1);
-part_type_color3(particle1,3237376,3302912,1651456);
+part_type_color3(particle1,8399402,6689041,3147527);
 part_type_alpha3(particle1,0.60,0.73,0.08);
 part_type_speed(particle1,2.86,6.60,0,0);
 part_type_direction(particle1,0,359,0,20);

@@ -32,10 +32,12 @@
     </sprites>
     <sprites name="Interact-ables">
       <sprite>sprites\sCoin</sprite>
+      <sprite>sprites\sCoinFake</sprite>
       <sprite>sprites\sCoin2</sprite>
-      <sprite>sprites\sprite42</sprite>
+      <sprite>sprites\sCoin3</sprite>
       <sprite>sprites\sCoinBig</sprite>
-      <sprite>sprites\sprite43</sprite>
+      <sprite>sprites\sCoinBigGreen</sprite>
+      <sprite>sprites\sCoinBigFake</sprite>
       <sprite>sprites\sCoinWhite</sprite>
       <sprite>sprites\sTurn90</sprite>
       <sprite>sprites\sTurn270</sprite>
@@ -76,8 +78,10 @@
     <scripts name="Effects">
       <script>scripts\scrEffectCoin.gml</script>
       <script>scripts\scrEffectCoinGreen.gml</script>
+      <script>scripts\scrEffectCoinFake.gml</script>
       <script>scripts\scrEffectCoin2.gml</script>
       <script>scripts\scrEffectCoin2Green.gml</script>
+      <script>scripts\scrEffectCoin2Fake.gml</script>
       <script>scripts\scrEffectCoin3.gml</script>
       <script>scripts\scrEffectRing.gml</script>
       <script>scripts\scrEffectRing2.gml</script>
@@ -170,8 +174,10 @@
       <object>objects\oCoin</object>
       <object>objects\oCoinBig</object>
       <object>objects\oCoinBigGreen</object>
+      <object>objects\oCoinBigFake</object>
       <object>objects\oCoinEffect</object>
       <object>objects\oCoinEffectGreen</object>
+      <object>objects\oCoinEffectFake</object>
       <object>objects\oWeightp</object>
       <object>objects\oButton</object>
       <object>objects\oFinish</object>

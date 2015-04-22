@@ -90,9 +90,9 @@ if (instance_number(oPlayer)&gt; 0)
             image_alpha -= 0.05;
            
 
-           view_angle -= 80;
-           now -= 80;
-           oPlayer.view_view += 80;
+           view_angle -= 100;
+           now -= 100;
+           oPlayer.view_view += 100;
           }
           else {instance_destroy()}
       }
