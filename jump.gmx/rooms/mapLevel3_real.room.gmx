@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>2664</xoffset>
-    <yoffset>879</yoffset>
+    <xoffset>3656</xoffset>
+    <yoffset>3734</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -520,25 +520,12 @@
     <instance objName="oWallFade" x="2336" y="1120" name="inst_725FF6D5" locked="0" code="" scaleX="8.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oTurn270Speedy" x="1264" y="1872" name="inst_30BC4F03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oTurn90p" x="864" y="3680" name="inst_A72EB634" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="oCoinBigGreen" x="1040" y="1056" name="inst_2B287F66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oPlayer" x="1440" y="1792" name="inst_C0B67644" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="1136" y="4256" name="inst_37C65BA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="1104" y="4256" name="inst_91EF4992" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="1184" y="3008" name="inst_186800C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoinBig" x="896" y="3696" name="inst_C00CE74F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oPlayer" x="3104" y="944" name="inst_2BECB3CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCoinBigFake" x="1040" y="1104" name="inst_8D070ACA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCoinBigFake" x="1040" y="1104" name="inst_63CFF312" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCoinBigFake" x="1040" y="1104" name="inst_9C868294" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCoinBigFake" x="1040" y="1104" name="inst_B7D2D591" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCoinBigFake" x="1040" y="1104" name="inst_B01F1981" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCoinBigGreen" x="1040" y="1056" name="inst_62B2A7A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCoinBigGreen" x="1040" y="1056" name="inst_B9A0486A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCoinBigGreen" x="1040" y="1056" name="inst_796BE4D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCoinBigGreen" x="1040" y="1056" name="inst_09A84BB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCoinBigFake" x="1040" y="1104" name="inst_CC61EBB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCoinBigFake" x="1040" y="1104" name="inst_14362566" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCoinBigGreen" x="1040" y="1056" name="inst_7EA070C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCoinBigGreen" x="1040" y="1056" name="inst_D372563E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCoinBigGreen" x="1040" y="1056" name="inst_909AE24F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
