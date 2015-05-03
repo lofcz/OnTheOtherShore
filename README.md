@@ -1,3 +1,3 @@
 # OnTheOtherShore
 
-Amateur Czech game.
+Epic Czech game :P
