@@ -36,6 +36,8 @@
     <sprites name="Walls">
       <sprite>sprites\sWall</sprite>
       <sprite>sprites\sWallTiny</sprite>
+      <sprite>sprites\sWallTriangle</sprite>
+      <sprite>sprites\_sWallHazard</sprite>
       <sprite>sprites\sWallRam</sprite>
       <sprite>sprites\wall_small</sprite>
       <sprite>sprites\sWallTinyHazard</sprite>
