@@ -61,12 +61,13 @@ if (distance_to_object(oPlayer) &lt; 25)
 {
 
 
-if (spd &gt; 20 || spd2&gt; 20) 
+if (spd &gt; 15 || spd2&gt; 15) 
    {
    if (mode = 1) 
    {
 //   show_message("");
-   mode = 2; sprite_index = sNoColl;
+   mode = 2; 
+   sprite_index = sNoColl;
    
    
    
@@ -92,7 +93,7 @@ for (i=0;i&lt;ww;i+=chunk) { //we loop 4 pixel at a time all the way across
 
 if (mode =2)
    {
-   if (image_alpha &gt; 0) {image_alpha -= 0.05} else {instance_destroy()}
+   if (image_alpha &gt; 0) {image_alpha -= 0.4} else {instance_destroy()}
    if (distance_to_object(oPlayer) &lt; 20)     
 {
 instance_create(oPlayer.x,oPlayer.y,oCutMask);
@@ -123,7 +124,8 @@ instance_create(oPlayer.x,oPlayer.y,oCutMask);
           <argument>
             <kind>1</kind>
             <string>/// geniální!
-
+if (mode = 1)
+{
 draw_set_colour(c_gray)
 d3d_transform_set_rotation_z(image_angle)
 d3d_transform_add_translation(x,y,0)
@@ -138,6 +140,7 @@ d3d_transform_set_identity()
 
 
 draw_set_colour(c_white)
+}
 //draw_text(x,y,oPlayer.vspd);
 </string>
           </argument>
