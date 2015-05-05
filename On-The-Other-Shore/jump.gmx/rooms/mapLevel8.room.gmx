@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-31</xoffset>
-    <yoffset>-139</yoffset>
+    <xoffset>2099</xoffset>
+    <yoffset>2431</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -116,7 +116,7 @@
     <instance objName="oCoin" x="1496" y="428" name="inst_63360022" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="1448" y="404" name="inst_2CD2518D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="988" y="724" name="inst_28197EEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWallBarricade" x="1248" y="752" name="inst_CABE41A7" locked="0" code="" scaleX="2.1538462638855" scaleY="1.01265823841095" colour="4294967295" rotation="0"/>
+    <instance objName="oWallBarricade" x="1245" y="675" name="inst_CABE41A7" locked="0" code="" scaleX="2.15000009536743" scaleY="1.00999999046326" colour="4294967295" rotation="0"/>
     <instance objName="oWallEnergyBreather" x="472" y="672" name="inst_A722A7D1" locked="0" code="scrEnergybreather(10,1,180,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="oWallEnergyBreather" x="512" y="728" name="inst_F76E8ADD" locked="0" code="scrEnergybreather(10,1,270,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="oCoin" x="1984" y="1008" name="inst_9AF2E3AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -221,7 +221,7 @@
     <instance objName="oWallStatic" x="216" y="2144" name="inst_7CEB6891" locked="0" code="" scaleX="7.09999990463257" scaleY="0.170000001788139" colour="4294967295" rotation="0"/>
     <instance objName="oTurn90p" x="536" y="1696" name="inst_9E87CCD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oButton" x="547" y="1484" name="inst_3778534E" locked="0" code="" scaleX="0.300000011920929" scaleY="2.11999988555908" colour="4294967295" rotation="90"/>
-    <instance objName="oWallBarricade" x="552" y="1600" name="inst_60BE14D5" locked="0" code="" scaleX="1.61538457870483" scaleY="0.5" colour="4294967295" rotation="90"/>
+    <instance objName="oWallBarricade" x="510" y="1605" name="inst_60BE14D5" locked="0" code="" scaleX="1.62000000476837" scaleY="0.5" colour="4294967295" rotation="90"/>
     <instance objName="oTurn270p" x="536" y="1696" name="inst_FC6E765B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oTurn270p" x="536" y="1696" name="inst_9BB84D32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oTurn270p" x="536" y="1696" name="inst_EDD2E97A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
