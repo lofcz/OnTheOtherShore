@@ -36,8 +36,6 @@
     <sprites name="Walls">
       <sprite>sprites\sWall</sprite>
       <sprite>sprites\sWallTiny</sprite>
-      <sprite>sprites\sWallTriangle</sprite>
-      <sprite>sprites\_sWallHazard</sprite>
       <sprite>sprites\sWallRam</sprite>
       <sprite>sprites\wall_small</sprite>
       <sprite>sprites\sWallTinyHazard</sprite>
@@ -255,7 +253,6 @@
     <room>rooms\mapLevel8</room>
     <rooms name="Progress">
       <room>rooms\mapLevel2</room>
-      <room>rooms\mapLevel7</room>
       <room>rooms\mapLevel4</room>
       <room>rooms\mapLevel9</room>
       <room>rooms\mapLevel3</room>
