@@ -196,6 +196,7 @@
       <object>objects\oCoinBig</object>
       <object>objects\oCoin3</object>
       <object>objects\oCoinMax</object>
+      <object>objects\oCoinSuperMax</object>
       <object>objects\oCoinEffect</object>
       <object>objects\oCoinEffect2</object>
       <object>objects\oWeightp</object>
@@ -248,7 +249,7 @@
     <object>objects\oLazerEnd</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room13</room>
+    <room>rooms\mapLevel10</room>
     <room>rooms\mapLevel3_real</room>
     <room>rooms\mapLevel9</room>
     <room>rooms\mapLevel8</room>
