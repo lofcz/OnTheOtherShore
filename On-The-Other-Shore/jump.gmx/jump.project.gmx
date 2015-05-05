@@ -96,6 +96,7 @@
       <script>scripts\scrEffectCoin.gml</script>
       <script>scripts\scrEffectCoin2.gml</script>
       <script>scripts\scrEffectCoin3.gml</script>
+      <script>scripts\scrEffectCoinMax.gml</script>
       <script>scripts\scrEffectCoin4.gml</script>
       <script>scripts\scrEffectRing.gml</script>
       <script>scripts\scrEffectRing2.gml</script>
@@ -194,6 +195,7 @@
       <object>objects\oCoin</object>
       <object>objects\oCoinBig</object>
       <object>objects\oCoin3</object>
+      <object>objects\oCoinMax</object>
       <object>objects\oCoinEffect</object>
       <object>objects\oCoinEffect2</object>
       <object>objects\oWeightp</object>
@@ -246,10 +248,10 @@
     <object>objects\oLazerEnd</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room13</room>
     <room>rooms\mapLevel3_real</room>
     <room>rooms\mapLevel9</room>
     <room>rooms\mapLevel8</room>
-    <room>rooms\room13</room>
     <room>rooms\mapLevel2_real</room>
     <room>rooms\mapLevel1_real</room>
     <room>rooms\mapLevel6</room>
