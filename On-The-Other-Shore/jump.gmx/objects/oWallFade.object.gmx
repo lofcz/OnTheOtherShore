@@ -124,8 +124,8 @@ if (k = 1)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (k = 0) {sprite_index = sWallTinyDown draw_self()}
-if (k = 1) {draw_set_alpha(image_alpha) draw_rectangle_colour(x,y,x+80,y+46,c_fuchsia,c_fuchsia,c_fuchsia,c_fuchsia,1) sprite_index = sNoColl draw_set_alpha(1)}
+            <string>if (k = 0) {sprite_index = sWallTinyDown draw_rectangle_colour(x,y,x+80*image_xscale,y+46*image_yscale,c_fuchsia,c_fuchsia,c_fuchsia,c_fuchsia,1)}
+if (k = 1) {draw_set_alpha(image_alpha) draw_rectangle_colour(x,y,x+80*image_xscale,y+46*image_yscale,c_fuchsia,c_fuchsia,c_fuchsia,c_fuchsia,1) sprite_index = sNoColl draw_set_alpha(1)}
 draw_set_colour(c_white)
 
 </string>

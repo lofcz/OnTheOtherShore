@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>3</page>
-    <xoffset>-21</xoffset>
-    <yoffset>581</yoffset>
+    <xoffset>942</xoffset>
+    <yoffset>1871</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -238,7 +238,7 @@
     <instance objName="oWallStatic" x="2400" y="2208" name="inst_5EDA9901" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="688" y="2288" name="inst_9140350D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallDown" x="1328" y="2592" name="inst_2FD560FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWallDown" x="1632" y="2656" name="inst_FDA7BB90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallDown" x="1648" y="2640" name="inst_FDA7BB90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallDown" x="1952" y="2592" name="inst_00985280" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="2240" y="2592" name="inst_1404341B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="2320" y="2592" name="inst_E047C17B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
