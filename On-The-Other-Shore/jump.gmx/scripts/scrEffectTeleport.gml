@@ -15,4 +15,3 @@ part_type_life(particle1,30,40);
 emitter1 = part_emitter_create(Sname);
 part_emitter_region(Sname,emitter1,oPlayer.x,oPlayer.x,oPlayer.y,oPlayer.y,0,0);
 part_emitter_burst(Sname,emitter1,particle1,5);
-

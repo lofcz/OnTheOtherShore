@@ -78,4 +78,3 @@ draw_set_alpha(aa)
 draw_sprite(sBackEffect,4,view_xview,view_yview[0])
 draw_set_alpha(1)
 draw_sprite_ext(sLoading,0,1024/2,768/2,xss,yss,0,c_white,aaa)   
-

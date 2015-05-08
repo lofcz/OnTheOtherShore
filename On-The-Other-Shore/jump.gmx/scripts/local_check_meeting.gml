@@ -7,4 +7,3 @@ if place_meeting(x+_x,y+_y,argument2) {
 }
 
 return false;
-

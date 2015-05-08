@@ -31,4 +31,3 @@ if _max_r <= 0 {
 }
 
 return _len;
-

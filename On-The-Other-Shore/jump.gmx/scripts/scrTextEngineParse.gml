@@ -47,5 +47,3 @@ for (a=0 a<lenght a++)
 
 
     }
-
-

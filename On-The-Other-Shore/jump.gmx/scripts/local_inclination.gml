@@ -21,4 +21,3 @@ if abs(abs(_y1)-abs(_y2))/8 > 3 {
 }
 
 return (_y1-_y2)/8*sign(image_xscale);
-

@@ -41,7 +41,7 @@ jump = 0;
 a = 0;
 hp = 100;
 max_hp = hp;
-view_view = 270;
+view_view = 270;                                                   
 aa = 1
 hp_curr = hp;
 dis_port =  0;
@@ -62,6 +62,10 @@ trail_col = c_yellow;
     xdrift = 0;
     ydrift = 0;
     trail = trail_create(length,x,y);
+                                 
+    
+    
+   
 
 </string>
           </argument>
@@ -293,6 +297,16 @@ if (keyboard_check_pressed(ord("R")))
     alarm[10] = 20;
    }
 }
+if (keyboard_check_pressed(vk_escape))
+   {
+   game_end();
+   }
+   
+if (keyboard_check_pressed(ord("N")))  // Vaškův request
+   {
+   room_goto_next();
+   }
+                                     
 </string>
           </argument>
         </arguments>
@@ -394,29 +408,6 @@ if (abs(view_angle) = 360)
    }
 }
 
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="10" enumb="78">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>room_goto_next()
 </string>
           </argument>
         </arguments>

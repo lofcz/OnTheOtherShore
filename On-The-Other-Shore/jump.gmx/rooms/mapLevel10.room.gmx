@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1456</w>
-    <h>876</h>
+    <w>1024</w>
+    <h>600</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>3</page>
-    <xoffset>202</xoffset>
-    <yoffset>503</yoffset>
+    <page>0</page>
+    <xoffset>593</xoffset>
+    <yoffset>214</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -131,7 +131,7 @@
     <instance objName="oCoinMax" x="3232" y="3040" name="inst_4B5D6166" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="2336" y="2896" name="inst_814950F9" locked="0" code="" scaleX="5.46835422515869" scaleY="0.666666686534882" colour="4294967295" rotation="340"/>
     <instance objName="oCoin3" x="2304" y="2832" name="inst_2064F9A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWallMoveableCart" x="2784" y="3056" name="inst_55D43B5E" locked="0" code="xs = x+500;&#xA;ys = y;&#xA;spd = 3;&#xA;" scaleX="1.60000002384186" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallMoveableCart" x="2784" y="3056" name="inst_55D43B5E" locked="0" code="xs = x+500;&#xA;ys = y;&#xA;spd = 3;" scaleX="1.60000002384186" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="3212" y="3056" name="inst_478AFA21" locked="0" code="" scaleX="3.375" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
     <instance objName="oWallFade" x="4752" y="3776" name="inst_2C0F707E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallFade" x="3872" y="3728" name="inst_D9A0A89C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

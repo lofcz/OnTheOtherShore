@@ -10,4 +10,3 @@ for(i=traillength-1; i>0; i-=1)
 
 ds_grid_set(argument0,0,0,argument1);
 ds_grid_set(argument0,0,1,argument2);
-

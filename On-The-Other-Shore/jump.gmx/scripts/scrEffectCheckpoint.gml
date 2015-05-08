@@ -34,5 +34,3 @@ part_type_life(particle2,20,77);
 emitter1 = part_emitter_create(Sname);
 part_emitter_region(Sname,emitter1,argument0,argument0,argument1,argument1,0,0);
 part_emitter_burst(Sname,emitter1,particle2,1);
-
-
