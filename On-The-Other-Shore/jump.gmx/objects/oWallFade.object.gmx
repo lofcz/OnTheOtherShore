@@ -90,7 +90,7 @@ if (k = 1)
     if (distance_to_point(point_x,point_y) &gt; 1)
        {
         move_towards_point(point_x,point_y,spd)
-        if (image_alpha &lt; 1) {image_alpha += 0.02}
+        if (image_alpha &lt; 1) {image_alpha += 0.01}
        }
        else {
        
@@ -124,10 +124,11 @@ if (k = 1)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (k = 0) {sprite_index = sWallTinyDown draw_rectangle_colour(x,y,x+80*image_xscale,y+46*image_yscale,c_fuchsia,c_fuchsia,c_fuchsia,c_fuchsia,1)}
+            <string>draw_set_alpha(image_alpha);
+if (k = 0) {sprite_index = sWallTinyDown draw_rectangle_colour(x,y,x+80*image_xscale,y+46*image_yscale,c_fuchsia,c_fuchsia,c_fuchsia,c_fuchsia,1)}
 if (k = 1) {draw_set_alpha(image_alpha) draw_rectangle_colour(x,y,x+80*image_xscale,y+46*image_yscale,c_fuchsia,c_fuchsia,c_fuchsia,c_fuchsia,1) sprite_index = sNoColl draw_set_alpha(1)}
 draw_set_colour(c_white)
-
+draw_set_alpha(1);
 </string>
           </argument>
         </arguments>

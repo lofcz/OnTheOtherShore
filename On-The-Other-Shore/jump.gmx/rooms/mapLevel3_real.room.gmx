@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-130</xoffset>
-    <yoffset>527</yoffset>
+    <xoffset>-203</xoffset>
+    <yoffset>-64</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -183,10 +183,6 @@
     <instance objName="oWallFade" x="1168" y="2928" name="inst_1F2A07D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="oTurn180pSpeedy" x="1184" y="3056" name="inst_63778870" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oTurn270p" x="1424" y="3056" name="inst_C7491E3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oTurn180pSpeedy" x="1424" y="3184" name="inst_D0DAB693" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oTurn180pSpeedy" x="1424" y="3184" name="inst_5704FFB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oTurn180pSpeedy" x="1424" y="3184" name="inst_EB208126" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oTurn180pSpeedy" x="1424" y="3184" name="inst_1657367B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="1168" y="3072" name="inst_9D64352F" locked="0" code="" scaleX="2.79999995231628" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="1200" y="3024" name="inst_6CDCB19B" locked="0" code="" scaleX="3" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="1440" y="3296" name="inst_81ACFFD9" locked="0" code="" scaleX="3.43037962913513" scaleY="0.333333343267441" colour="4294967295" rotation="90"/>

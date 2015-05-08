@@ -223,7 +223,7 @@ event_inherited()
 unstick(16)
 g_dir = view_view;
 if (hp_curr != hp) {hp_curr = hp;}
-if (hp_curr != hp) {show_message("")}
+if (hp_curr != hp) {}
     c1 = make_colour_rgb(128*(hp/max_hp),0,128*(hp/max_hp)); //128,0,128
     c2 =  make_colour_rgb(255*(hp/max_hp),0,255*(hp/max_hp));;  // 255,0,255
 
