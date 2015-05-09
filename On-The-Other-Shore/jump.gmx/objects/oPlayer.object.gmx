@@ -218,6 +218,26 @@ y = ystart
           <argument>
             <kind>1</kind>
             <string>/// Screen rotate
+
+if (hp &lt;= 0)
+   {
+   
+   if (oCheckpointSystem.StateSaved)
+    {
+    scrPlayerStopDraw();
+    with(oCheckpointSystem)
+    {
+    game_load("save.otos")
+    }
+    
+    }
+    else 
+    {   
+    room_restart();
+    }
+
+   }
+
 w1 = 4+weight
 event_inherited()
 unstick(16)
@@ -306,7 +326,8 @@ if (keyboard_check_pressed(ord("N")))  // Vaškův request
    {
    room_goto_next();
    }
-                                     
+             
+
 </string>
           </argument>
         </arguments>

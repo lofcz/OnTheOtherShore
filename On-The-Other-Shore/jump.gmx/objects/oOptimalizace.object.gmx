@@ -59,7 +59,7 @@ y=view_yview
 instance_activate_all();
 instance_deactivate_region(x-400,y-400,1500,1500,0,1);
 
-
+instance_activate_object(oPlayer);
 instance_activate_object(oCheckpointSystem);
 </string>
           </argument>

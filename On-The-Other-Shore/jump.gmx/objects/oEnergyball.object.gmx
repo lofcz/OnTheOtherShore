@@ -178,7 +178,7 @@ if (instance_number(oPlayer) &gt; 0)
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="oWallFade">
+    <event eventtype="4" ename="oWallBarricade">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -201,7 +201,7 @@ if (instance_number(oPlayer) &gt; 0)
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="oWallBarricade">
+    <event eventtype="4" ename="oWallFade">
       <action>
         <libid>1</libid>
         <id>603</id>

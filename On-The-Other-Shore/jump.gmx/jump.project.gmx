@@ -84,6 +84,8 @@
     <sprite>sprites\sLazer</sprite>
     <sprite>sprites\sLazer2</sprite>
     <sprite>sprites\sDeadBlock</sprite>
+    <sprite>sprites\sD2</sprite>
+    <sprite>sprites\sLaserBolt</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Backgrounds">
@@ -179,11 +181,11 @@
       <object>objects\oWallStaticGravityBouncy</object>
       <object>objects\oWallSpike</object>
       <object>objects\oWallBigJump</object>
-      <object>objects\oWallBarricade</object>
       <object>objects\oWallPort</object>
       <object>objects\oWallFade</object>
       <object>objects\oWallBounce</object>
       <object>objects\oWallDeath</object>
+      <object>objects\oWallBarricade</object>
       <object>objects\oWallStaticSpecial</object>
       <objects name="Parents &amp; helpers">
         <object>objects\oPortHelper</object>
@@ -249,6 +251,7 @@
     </objects>
     <object>objects\oLazerStart</object>
     <object>objects\oLazerEnd</object>
+    <object>objects\oLaserCollision</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Next-x Levels (Test)">

@@ -26,7 +26,152 @@
           <argument>
             <kind>1</kind>
             <string>//k = instance_nearest(
-xx = k
+d = 0;
+alarm[0] = 1;
+r = 60;  //max 144
+g = 0;
+b = 0;
+clr = make_colour_rgb(r,g,b);
+mode = 1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>d = 1;
+xx = (idd).x;
+yy = (idd).y;
+
+a = instance_create(x,y,oLaserCollision);
+a.p = distance_to_point(xx,yy);
+a.d = point_direction(x,y,xx,yy);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string></string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//draw_self();
+has_drawn=1;
+
+
+if (d = 1)
+   {   
+   
+   
+
+if (mode = 1)
+   {
+    if (r &lt; 255) {r+= 2}
+     else {mode = 0;}
+
+   }
+  
+                    
+if (mode = 0)
+   {
+    if (r &gt; 60) {r -= 2;}
+    else {mode = 1; }
+
+   }
+   
+
+if (r&gt;=255) {r = 255;}
+clr = make_colour_rgb(r,g,b);
+
+   
+   
+   
+   
+       draw_set_colour(clr);
+   
+        dx=x-xx;
+        dy=y-yy;
+        m=sqrt(sqr(dx)+sqr(dy));
+        
+        
+            dx/=m;
+            dy/=m;
+            dx*=length;
+            dy*=length;
+            m-=length;
+            xxc=xx;
+            yyc=yy;
+            
+            draw_primitive_begin(pr_linestrip);
+            draw_vertex(xx,yy);
+            
+            for(i=0;i&lt;m;i+=length)
+            {
+                xxc+=dx;
+                yyc+=dy;
+                draw_vertex(xxc-area+random(area*2),yyc-area+random(area*2));
+            }
+            
+            draw_vertex(x,y);
+            draw_primitive_end();
+         draw_text(x,y,mode);
+          draw_text(x,y+40,r);
+
+   
+
+
+   }
 </string>
           </argument>
         </arguments>
