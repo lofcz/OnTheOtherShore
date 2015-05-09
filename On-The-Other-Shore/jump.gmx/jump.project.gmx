@@ -251,6 +251,9 @@
     <object>objects\oLazerEnd</object>
   </objects>
   <rooms name="rooms">
+    <rooms name="Next-x Levels (Test)">
+      <room>rooms\Test_nxt</room>
+    </rooms>
     <room>rooms\mapLevel10</room>
     <room>rooms\mapLevel3_real</room>
     <room>rooms\mapLevel1_real</room>
