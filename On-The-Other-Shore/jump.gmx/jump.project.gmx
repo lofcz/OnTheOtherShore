@@ -254,20 +254,17 @@
     <object>objects\oLaserCollision</object>
   </objects>
   <rooms name="rooms">
-    <rooms name="Next-x Levels (Test)">
-      <room>rooms\Test_nxt</room>
-    </rooms>
     <room>rooms\mapLevel10</room>
     <room>rooms\mapLevel3_real</room>
     <room>rooms\mapLevel1_real</room>
     <room>rooms\mapLevel9</room>
-    <room>rooms\mapLevel8</room>
+    <room>rooms\mapLevel4_real</room>
     <room>rooms\mapLevel2_real</room>
     <room>rooms\mapLevel6</room>
     <rooms name="Progress">
-      <room>rooms\mapLevel2</room>
+      <room>rooms\mapLevel2_Time</room>
       <room>rooms\mapLevel4</room>
-      <room>rooms\mapLevel3</room>
+      <room>rooms\mapLevel3_Time</room>
     </rooms>
     <rooms name="Cutscenes">
       <room>rooms\mapMainMenu</room>
