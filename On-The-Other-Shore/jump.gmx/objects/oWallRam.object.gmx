@@ -124,7 +124,7 @@ if (place_empty(other.x,other.y+1))
    {
    
    }
-   else {oPlayer.hp -= 100; scrEffectRam(other.x,other.y);}
+   else {instance_create(x,y,oDeadFog) scrEffectRam(other.x,other.y);}
 }
 if (vspeed &lt; 0 &amp;&amp; hspeed = 0)
 {
@@ -132,7 +132,7 @@ if (place_empty(other.x,other.y-1))
    {
    
    }
-   else {oPlayer.hp -= 100; scrEffectRam(other.x,other.y);}
+   else {instance_create(x,y,oDeadFog) scrEffectRam(other.x,other.y);}
 }
 
 </string>

@@ -60,6 +60,7 @@
       <sprite>sprites\sTurn270</sprite>
       <sprite>sprites\sTurn180</sprite>
       <sprite>sprites\sRotate</sprite>
+      <sprite>sprites\sRotate2</sprite>
       <sprite>sprites\sButton</sprite>
     </sprites>
     <sprites name="Text">
@@ -86,6 +87,7 @@
     <sprite>sprites\sDeadBlock</sprite>
     <sprite>sprites\sD2</sprite>
     <sprite>sprites\sLaserBolt</sprite>
+    <sprite>sprites\sArrow</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Backgrounds">
@@ -208,6 +210,7 @@
       <object>objects\oFinish</object>
       <object>objects\oCheckpoint</object>
       <object>objects\oTurn90p</object>
+      <object>objects\oTurnPlayerBased90</object>
       <object>objects\oTurn90pM</object>
       <object>objects\oTurn180p</object>
       <object>objects\oTurn180pSpeedy</object>
@@ -254,10 +257,10 @@
     <object>objects\oLaserCollision</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\mapLevel10</room>
     <rooms name="Next-x Levels (Test)">
       <room>rooms\Test_nxt</room>
     </rooms>
-    <room>rooms\mapLevel10</room>
     <room>rooms\mapLevel3_real</room>
     <room>rooms\mapLevel1_real</room>
     <room>rooms\mapLevel9</room>
