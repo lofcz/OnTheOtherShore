@@ -26,7 +26,7 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
+    <page>1</page>
     <xoffset>162</xoffset>
     <yoffset>1312</yoffset>
   </makerSettings>
@@ -462,7 +462,7 @@
     <instance objName="oWallEnergyBreather" x="16" y="1920" name="inst_19AA8E49" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="oWallEnergyBreather" x="16" y="2048" name="inst_1461BBC3" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="oWallEnergyBreather" x="16" y="1792" name="inst_68AD453B" locked="0" code="scrEnergybreather(10,1,0,3,20,1,0.1,1);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="oWallBarricade" x="288" y="1584" name="inst_371735A2" locked="0" code="" scaleX="1.69230771064758" scaleY="2.40000009536743" colour="4294967295" rotation="0"/>
+    <instance objName="oWallBarricade" x="288" y="1392" name="inst_371735A2" locked="0" code="" scaleX="1.69000005722046" scaleY="2.40000009536743" colour="4294967295" rotation="0"/>
     <instance objName="oFinish" x="240" y="2112" name="inst_7D140B92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="284" y="1584" name="inst_E04EA0EC" locked="0" code="" scaleX="4.44999980926514" scaleY="1.08333337306976" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="240" y="1632" name="inst_93E5D55E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
