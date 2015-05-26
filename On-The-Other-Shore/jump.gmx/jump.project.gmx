@@ -257,6 +257,7 @@
     <object>objects\oLaserCollision</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\mapLevel1_time</room>
     <room>rooms\mapLevel10</room>
     <room>rooms\mapLevel3_real</room>
     <room>rooms\mapLevel1_real</room>
@@ -265,7 +266,6 @@
     <room>rooms\mapLevel2_real</room>
     <room>rooms\mapLevel6</room>
     <rooms name="Progress">
-      <room>rooms\mapLevel1_time</room>
       <room>rooms\mapLevel2_time</room>
       <room>rooms\mapLevel3_time</room>
     </rooms>
