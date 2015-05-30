@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>a = 0;
+</string>
           </argument>
         </arguments>
       </action>
@@ -47,10 +48,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>if (a= 0)
+{
     instance_create(x,y,oDeadFog);
-
-
+alarm[0] = 20
+ a = 1;
+}
 </string>
           </argument>
         </arguments>
