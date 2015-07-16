@@ -59,6 +59,7 @@ mode = 1;
 xx = (idd).x;
 yy = (idd).y;
 
+
 a = instance_create(x,y,oLaserCollision);
 a.p = distance_to_point(xx,yy);
 a.d = point_direction(x,y,xx,yy);

@@ -88,6 +88,7 @@
     <sprite>sprites\sD2</sprite>
     <sprite>sprites\sLaserBolt</sprite>
     <sprite>sprites\sArrow</sprite>
+    <sprite>sprites\sprite48</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Backgrounds">
@@ -110,7 +111,9 @@
       <script>scripts\screffectRestart.gml</script>
       <script>scripts\scrEffectCheckpoint.gml</script>
       <script>scripts\scrEffectCheckpoint2.gml</script>
+      <script>scripts\scrEffectBall2.gml</script>
       <script>scripts\scrEffectRam.gml</script>
+      <script>scripts\scrEffectBall.gml</script>
     </scripts>
     <scripts name="API">
       <scripts name="Player">
@@ -244,6 +247,7 @@
       <objects name="Effects">
         <object>objects\oCutMask</object>
         <object>objects\oParticle</object>
+        <object>objects\oFireBall</object>
       </objects>
       <object>objects\oLogic</object>
       <object>objects\oLight</object>
