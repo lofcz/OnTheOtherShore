@@ -411,7 +411,7 @@
     <instance objName="oFinish" x="240" y="2112" name="inst_7D140B92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="284" y="1584" name="inst_E04EA0EC" locked="0" code="" scaleX="4.44999980926514" scaleY="1.08333337306976" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="608" y="944" name="inst_D61524AB" locked="0" code="" scaleX="3.0253164768219" scaleY="0.319999992847443" colour="4294967295" rotation="90"/>
-    <instance objName="oPlayer" x="1424" y="1192" name="inst_3B7F5BE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oPlayer" x="864" y="640" name="inst_3B7F5BE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oTurn270pSpeedy" x="664" y="752" name="inst_FA848B71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="2096" y="304" name="inst_5F788174" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="2176" y="352" name="inst_CD860F8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
