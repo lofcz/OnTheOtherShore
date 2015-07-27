@@ -28,7 +28,7 @@
             <string>/// Declare variables
 
 event_inherited()
-if (!audio_is_playing(sndTheme1)) {audio_play_sound(sndTheme1,1,1)}
+//if (!audio_is_playing(sndTheme1)) {audio_play_sound(sndTheme1,1,1)}
 instance_create(x,y,oCheckpointSystem);
 instance_create(x,y,oOptimalizace);
 //instance_create(x,y,oTextLevelName);
