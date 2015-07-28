@@ -237,7 +237,7 @@ if (hp &lt;= 0)
     }
 
    }
-
+   
 w1 = 4+weight
 event_inherited()
 unstick(16)
@@ -361,7 +361,7 @@ if (oCheckpointSystem.StateSaved)
     }
     
     }
-    else 
+    else
     {   
     screffectRestart()
     room_restart();

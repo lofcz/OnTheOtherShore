@@ -533,7 +533,7 @@
     <instance objName="oWallSpike" x="1776" y="400" name="inst_29BBCD7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="oWallSpike" x="1776" y="560" name="inst_94DDE35A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="oWallSpike" x="1776" y="540" name="inst_939A725E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="oPlayer" x="2655" y="1020" name="inst_912AAC16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oPlayer" x="1590" y="735" name="inst_912AAC16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

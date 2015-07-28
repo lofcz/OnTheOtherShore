@@ -55,6 +55,7 @@
       <sprite>sprites\sCoin2</sprite>
       <sprite>sprites\sCoinBig</sprite>
       <sprite>sprites\sCoin3</sprite>
+      <sprite>sprites\sCoinGreen</sprite>
       <sprite>sprites\sCoinWhite</sprite>
       <sprite>sprites\sTurn90</sprite>
       <sprite>sprites\sTurn270</sprite>
@@ -101,6 +102,7 @@
       <script>scripts\scrEffectCoin.gml</script>
       <script>scripts\scrEffectCoin2.gml</script>
       <script>scripts\scrEffectCoin3.gml</script>
+      <script>scripts\scrEffectCoinGreen.gml</script>
       <script>scripts\scrEffectCoinMax.gml</script>
       <script>scripts\scrEffectCoin4.gml</script>
       <script>scripts\scrEffectRing.gml</script>
@@ -201,10 +203,12 @@
       <object>objects\oCoin</object>
       <object>objects\oCoinBig</object>
       <object>objects\oCoin3</object>
+      <object>objects\oCoinGreen</object>
       <object>objects\oCoinMax</object>
       <object>objects\oCoinSuperMax</object>
       <object>objects\oCoinEffect</object>
       <object>objects\oCoinEffect2</object>
+      <object>objects\oCoinEffectGreen</object>
       <object>objects\oWeightp</object>
       <object>objects\oButton</object>
       <object>objects\oFinish</object>
@@ -240,6 +244,8 @@
         <object>objects\oTextSpeci6</object>
         <object>objects\oTextSpeci7</object>
         <object>objects\oTextSpeci8</object>
+        <object>objects\oTextSpeci9</object>
+        <object>objects\oTextSpeci10</object>
       </objects>
       <objects name="Effects">
         <object>objects\oCutMask</object>
@@ -257,21 +263,31 @@
     <object>objects\oLaserCollision</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\mapLevel5_real</room>
-    <room>rooms\mapLevel6_real</room>
-    <room>rooms\mapPhysicTest</room>
-    <room>rooms\mapLevel1_time</room>
-    <room>rooms\mapLevel2_time</room>
-    <room>rooms\mapLevel3_time</room>
-    <room>rooms\mapLevel1_real</room>
-    <room>rooms\mapLevel2_real</room>
-    <room>rooms\mapLevel3_real</room>
-    <room>rooms\mapLevel4_real</room>
+    <rooms name="Finished">
+      <rooms name="Real">
+        <room>rooms\mapLevel6_real</room>
+        <room>rooms\mapLevel5_real</room>
+        <room>rooms\mapLevel1_real</room>
+        <room>rooms\mapLevel2_real</room>
+      </rooms>
+    </rooms>
+    <rooms name="Uncompleted">
+      <rooms name="Real">
+        <room>rooms\mapLevel4_real</room>
+        <room>rooms\mapLevel3_real</room>
+      </rooms>
+      <rooms name="Time">
+        <room>rooms\mapLevel1_time</room>
+        <room>rooms\mapLevel2_time</room>
+        <room>rooms\mapLevel3_time</room>
+      </rooms>
+    </rooms>
     <rooms name="Cutscenes">
       <room>rooms\mapMainMenu</room>
       <room>rooms\mapIntro</room>
     </rooms>
     <room>rooms\mapLevelBasic</room>
+    <room>rooms\mapPhysicTest</room>
   </rooms>
   <constants number="5">
     <constant name="e_alpha">4</constant>

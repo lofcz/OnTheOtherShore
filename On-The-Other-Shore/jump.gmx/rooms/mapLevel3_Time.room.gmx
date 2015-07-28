@@ -120,10 +120,9 @@
     <instance objName="oButton" x="196" y="3408" name="inst_B1F6F0B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="368" y="3776" name="inst_3387536C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oFinish" x="372" y="3692" name="inst_B3E4F275" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWallDown" x="0" y="3792" name="inst_39DFD3F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="148" y="3408" name="inst_9FCE02E1" locked="0" code="" scaleX="1.79999995231628" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="208" y="3360" name="inst_09B8FDC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWallBigJump" x="560" y="3752" name="inst_37C221D1" locked="0" code="skok = 12;&#xA;" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="oWallBigJump" x="560" y="3752" name="inst_37C221D1" locked="0" code="skok = 15;&#xA;" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="336" y="3520" name="inst_BC6FBE8A" locked="0" code="" scaleX="1" scaleY="1.91999995708466" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="928" y="3952" name="inst_4ABB3E8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="1024" y="3904" name="inst_35A0A3C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -222,6 +221,9 @@
     <instance objName="oWallSpike" x="960" y="3904" name="inst_CC912428" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallSpike" x="980" y="3904" name="inst_A99739CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallSpike" x="960" y="3904" name="inst_AC0AC64A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oLazerStart" x="-20" y="3808" name="inst_F721B811" locked="0" code="idd = (inst_F1566B37).id;&#xA;length = 6;&#xA;area = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oLazerEnd" x="340" y="3824" name="inst_F1566B37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCheckpoint" x="3568" y="2944" name="inst_8D825148" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
