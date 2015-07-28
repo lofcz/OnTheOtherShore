@@ -130,6 +130,8 @@ draw_set_color(c_white)
  draw_text_ext_transformed(x,y+16,"precious shards of memories",12,500,1,1,view_angle)
  draw_set_color(c_white)
  draw_text_ext_transformed(x,y+32,"Search!",12,500,1,1,view_angle)
+ draw_set_color(c_white)
+ draw_text_ext_transformed(x+128,y,".",12,500,1,1,view_angle)
 
     }
 else 

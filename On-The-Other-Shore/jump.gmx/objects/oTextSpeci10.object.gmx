@@ -125,13 +125,11 @@ draw_set_color(c_white)
 
 
 // scrMulticoloredText(x-130,y-60,text)
- draw_text_ext_transformed(x,y,"Break the",12,500,1,1,view_angle)
- draw_set_color(c_red)
- draw_text_ext_transformed(x+70,y,"barriers",12,500,1,1,view_angle)
- draw_set_color(c_white)
- draw_text_ext_transformed(x+120,y,"of the",12,500,1,1,view_angle)
+ draw_text_ext_transformed(x,y,"Break",12,500,1,1,view_angle)
  draw_set_color(c_aqua)
- draw_text_ext_transformed(x+160,y,"time",12,500,1,1,view_angle)
+ draw_text_ext_transformed(x+100,y,"the barriers of the time",12,500,1,1,view_angle)
+ draw_set_color(c_white)
+ draw_text_ext_transformed(x+128,y,".",12,500,1,1,view_angle)
 
     }
 else 

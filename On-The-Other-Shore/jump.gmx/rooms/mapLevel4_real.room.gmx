@@ -377,7 +377,7 @@
     <instance objName="oWallSpike" x="2320" y="816" name="inst_C7887BFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallSpike" x="2340" y="816" name="inst_DDB7918D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallSpike" x="2360" y="816" name="inst_5CA432C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oTextSpeciNew1" x="1472" y="688" name="inst_110816D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oTextSpeciNew1" x="1500" y="690" name="inst_110816D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="530" y="1424" name="inst_E2242CC9" locked="0" code="" scaleX="0.212500005960464" scaleY="1.20000004768372" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="2528" y="32" name="inst_D58B4D2E" locked="0" code="" scaleX="3.20000004768372" scaleY="0.330000013113022" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="1520" y="752" name="inst_779187FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

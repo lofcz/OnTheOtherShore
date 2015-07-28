@@ -174,7 +174,11 @@ if (ride = 0)
         move_towards_point(xstart,ystart,spd);
        
        }
-       
+       else
+       {
+       hspeed = 0;
+       speed = 0;
+       }
        if (g &gt; 150)
        {
         g -= 1;

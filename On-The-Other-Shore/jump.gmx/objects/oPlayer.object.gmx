@@ -28,7 +28,31 @@
             <string>/// Declare variables
 
 event_inherited()
-if (!audio_is_playing(sndTheme1)) {audio_play_sound(sndTheme1,1,1)}
+if ((room = mapLevel1_time) || (room = mapLevel2_time) || (room = mapLevel3_time))
+{
+    if (audio_is_playing(sndTheme1)) || (audio_is_playing(sndTheme3))
+    {
+    audio_stop_all();
+    }
+    if(!audio_is_playing(sndTheme2)) {audio_play_sound(sndTheme2,1,1)}
+}
+else if ((room = mapLevel5_real) || (room = mapLevel6_real))
+{
+    if (audio_is_playing(sndTheme1)) || (audio_is_playing(sndTheme2))
+    {
+    audio_stop_all();
+    }
+    if(!audio_is_playing(sndTheme3)) {audio_play_sound(sndTheme3,1,1)}
+}
+else
+{
+    if (audio_is_playing(sndTheme2)) || (audio_is_playing(sndTheme3))
+    {
+    audio_stop_all();
+    }
+    if(!audio_is_playing(sndTheme1)) {audio_play_sound(sndTheme1,1,1)}
+}
+
 instance_create(x,y,oCheckpointSystem);
 instance_create(x,y,oOptimalizace);
 //instance_create(x,y,oTextLevelName);

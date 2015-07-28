@@ -30,6 +30,8 @@
     <sound>sound\Jump</sound>
     <sound>sound\Thunder</sound>
     <sound>sound\sndTlacitko</sound>
+    <sound>sound\sndTheme2</sound>
+    <sound>sound\sndTheme3</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sPlayer</sprite>
@@ -246,6 +248,7 @@
         <object>objects\oTextSpeci8</object>
         <object>objects\oTextSpeci9</object>
         <object>objects\oTextSpeci10</object>
+        <object>objects\oTextSpeci11</object>
       </objects>
       <objects name="Effects">
         <object>objects\oCutMask</object>
@@ -265,16 +268,16 @@
   <rooms name="rooms">
     <rooms name="Finished">
       <rooms name="Real">
-        <room>rooms\mapLevel6_real</room>
-        <room>rooms\mapLevel5_real</room>
         <room>rooms\mapLevel1_real</room>
         <room>rooms\mapLevel2_real</room>
+        <room>rooms\mapLevel5_real</room>
+        <room>rooms\mapLevel6_real</room>
       </rooms>
     </rooms>
     <rooms name="Uncompleted">
       <rooms name="Real">
-        <room>rooms\mapLevel4_real</room>
         <room>rooms\mapLevel3_real</room>
+        <room>rooms\mapLevel4_real</room>
       </rooms>
       <rooms name="Time">
         <room>rooms\mapLevel1_time</room>
@@ -289,12 +292,13 @@
     <room>rooms\mapLevelBasic</room>
     <room>rooms\mapPhysicTest</room>
   </rooms>
-  <constants number="5">
+  <constants number="6">
     <constant name="e_alpha">4</constant>
     <constant name="e_end_y">3</constant>
     <constant name="e_end_x">2</constant>
     <constant name="e_start_y">1</constant>
     <constant name="e_start_x">0</constant>
+    <constant name="c_gold">make_color_rgb(255,200,0)</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>
