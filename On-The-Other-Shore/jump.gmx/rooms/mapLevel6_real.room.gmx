@@ -3,8 +3,8 @@
   <caption></caption>
   <width>5000</width>
   <height>5000</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -324,11 +324,11 @@
     <instance objName="oWallFade" x="3680" y="4160" name="inst_3ED717F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallPort" x="3210" y="3616" name="inst_A8C33722" locked="0" code="xx=3664&#xA;yy=1068&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="3536" y="3040" name="inst_05A45667" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWallDeath" x="568" y="3256" name="inst_F4CD24B1" locked="0" code="" scaleX="85.75" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallDeath" x="96" y="3264" name="inst_F4CD24B1" locked="0" code="" scaleX="100" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="oWallFade" x="3632" y="4112" name="inst_BE902463" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCheckpoint" x="3824" y="3968" name="inst_BFF9218F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oTextSpeciENGINE" x="2192" y="1200" name="inst_7A93F92B" locked="0" code="yy = y;&#xA;//************************* Config part ****************************************&#xA;&#xA;&#xA;str[0,m_text] = &quot;Let&quot;; &#xA;str[1,m_text] = &quot;me&quot;;&#xA;str[2,m_text] = &quot;fade&quot;;&#xA;str[3,m_text] = &quot;.&quot;;&#xA;&#xA;&#xA;&#xA;lenght = 5;&#xA;distance = 350;&#xA;//****************************************************************************&#xA;scrTextEngineSetUpDefaults();&#xA;//************************* Edit part ****************************************&#xA;text_width = 400; &#xA;&#xA;str[2,m_color] = make_colour_rgb(138,43,226);&#xA;&#xA;&#xA;//****************************************************************************&#xA;&#xA;&#xA;&#xA;scrTextEngineParse()&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWallDeath" x="3040" y="2064" name="inst_D343B05F" locked="0" code="" scaleX="37.5" scaleY="0.75" colour="4294967295" rotation="0"/>
+    <instance objName="oWallDeath" x="3040" y="2064" name="inst_D343B05F" locked="0" code="" scaleX="60" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="oWallDeath" x="552" y="1808" name="inst_718D86FF" locked="0" code="" scaleX="80.5" scaleY="1.25" colour="4294967295" rotation="0"/>
     <instance objName="oWallFade" x="3456" y="3920" name="inst_43A673BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="3776" y="4096" name="inst_D037C6AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -375,7 +375,7 @@
     <instance objName="oWallStaticAlpha" x="4544" y="3792" name="inst_3F18B3D5" locked="0" code="" scaleX="0.600000023841858" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
     <instance objName="oWallDeath" x="1504" y="4384" name="inst_8A581541" locked="0" code="" scaleX="109" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="oLazerStart" x="3200" y="1240" name="inst_8C7D168F" locked="0" code="idd = (inst_A3A27147).id;&#xA;length = 6;&#xA;area = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oLazerEnd" x="3648" y="1240" name="inst_A3A27147" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oLazerEnd" x="3744" y="1240" name="inst_A3A27147" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStaticAlpha" x="3888" y="1208" name="inst_F28AF7B0" locked="0" code="" scaleX="0.300000011920929" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
     <instance objName="oWallStaticAlpha" x="3720" y="1232" name="inst_DCBC8850" locked="0" code="" scaleX="0.300000011920929" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
     <instance objName="oWallStaticAlpha" x="3864" y="1216" name="inst_A4595B81" locked="0" code="" scaleX="0.300000011920929" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
