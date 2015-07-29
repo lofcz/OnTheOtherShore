@@ -59,6 +59,7 @@
       <sprite>sprites\sCoin3</sprite>
       <sprite>sprites\sCoinGreen</sprite>
       <sprite>sprites\sCoinWhite</sprite>
+      <sprite>sprites\sCoinYellow</sprite>
       <sprite>sprites\sTurn90</sprite>
       <sprite>sprites\sTurn270</sprite>
       <sprite>sprites\sTurn180</sprite>
@@ -212,6 +213,7 @@
       <object>objects\oCoinEffect2</object>
       <object>objects\oCoinEffectGreen</object>
       <object>objects\oWeightp</object>
+      <object>objects\oWeightp2</object>
       <object>objects\oButton</object>
       <object>objects\oFinish</object>
       <object>objects\oCheckpoint</object>
@@ -249,6 +251,7 @@
         <object>objects\oTextSpeci9</object>
         <object>objects\oTextSpeci10</object>
         <object>objects\oTextSpeci11</object>
+        <object>objects\oTextSpeci12</object>
       </objects>
       <objects name="Effects">
         <object>objects\oCutMask</object>
@@ -270,15 +273,13 @@
       <rooms name="Real">
         <room>rooms\mapLevel1_real</room>
         <room>rooms\mapLevel2_real</room>
+        <room>rooms\mapLevel3_real</room>
+        <room>rooms\mapLevel4_real</room>
         <room>rooms\mapLevel5_real</room>
         <room>rooms\mapLevel6_real</room>
       </rooms>
     </rooms>
     <rooms name="Uncompleted">
-      <rooms name="Real">
-        <room>rooms\mapLevel3_real</room>
-        <room>rooms\mapLevel4_real</room>
-      </rooms>
       <rooms name="Time">
         <room>rooms\mapLevel1_time</room>
         <room>rooms\mapLevel2_time</room>

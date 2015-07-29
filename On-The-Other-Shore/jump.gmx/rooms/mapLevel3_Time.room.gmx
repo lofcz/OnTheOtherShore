@@ -222,7 +222,7 @@
     <instance objName="oWallSpike" x="980" y="3904" name="inst_A99739CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallSpike" x="960" y="3904" name="inst_AC0AC64A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oLazerStart" x="-20" y="3808" name="inst_F721B811" locked="0" code="idd = (inst_F1566B37).id;&#xA;length = 6;&#xA;area = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oLazerEnd" x="340" y="3824" name="inst_F1566B37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oLazerEnd" x="340" y="3808" name="inst_F1566B37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCheckpoint" x="3568" y="2944" name="inst_8D825148" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

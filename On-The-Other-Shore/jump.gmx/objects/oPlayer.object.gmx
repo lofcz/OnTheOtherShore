@@ -350,7 +350,14 @@ if (keyboard_check_pressed(ord("N")))  // Vaškův request
    {
    room_goto_next();
    }
-             
+if (keyboard_check_pressed(ord("P")))  // Vaškův request
+   {
+   room_goto_previous();
+   }
+if (weight &lt; 1)
+    {
+    weight = 0.5;
+    }             
 
 </string>
           </argument>
