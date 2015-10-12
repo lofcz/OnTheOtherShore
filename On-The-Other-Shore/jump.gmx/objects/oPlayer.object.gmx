@@ -28,7 +28,8 @@
             <string>/// Declare variables
 
 event_inherited()
-if ((room = mapLevel1_time) || (room = mapLevel2_time) || (room = mapLevel3_time))
+
+/*if ((room = mapLevel1_time) || (room = mapLevel2_time) || (room = mapLevel3_time))
 {
     if (audio_is_playing(sndTheme1)) || (audio_is_playing(sndTheme3))
     {
@@ -51,7 +52,7 @@ else
     audio_stop_all();
     }
     if(!audio_is_playing(sndTheme1)) {audio_play_sound(sndTheme1,1,1)}
-}
+}*/
 
 instance_create(x,y,oCheckpointSystem);
 instance_create(x,y,oOptimalizace);

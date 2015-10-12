@@ -102,7 +102,6 @@
     <instance objName="oWallFade" x="1680" y="464" name="inst_4ECD74F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oFinish" x="1984" y="320" name="inst_EF089E59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="0" y="208" name="inst_3BF7E68D" locked="0" code="" scaleX="4.59999990463257" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWallBounce" x="912" y="752" name="inst_215B03AD" locked="0" code="" scaleX="0.666666686534882" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="1632" y="464" name="inst_68BFB153" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="824" y="728" name="inst_FA31F7AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="240" y="480" name="inst_BB295F9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -169,6 +168,9 @@
     <instance objName="oWallSpike" x="300" y="1136" name="inst_97A231BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallSpike" x="320" y="1136" name="inst_C2DA2EE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallDeath" x="20" y="1264" name="inst_3605D974" locked="0" code="" scaleX="159.354843139648" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="oCheckpoint" x="923" y="624" name="inst_291A8F39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="902" y="752" name="inst_AB545E7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCheckpoint" x="1386" y="496" name="inst_29EEFA29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

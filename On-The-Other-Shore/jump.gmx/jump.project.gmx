@@ -269,6 +269,7 @@
     <object>objects\oLaserCollision</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room13</room>
     <rooms name="Finished">
       <rooms name="Real">
         <room>rooms\mapLevel1_real</room>
