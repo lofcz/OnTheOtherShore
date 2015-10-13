@@ -37,7 +37,7 @@ if ((room = mapLevel1_time) || (room = mapLevel2_time) || (room = mapLevel3_time
     }
     if(!audio_is_playing(sndTheme2)) {audio_play_sound(sndTheme2,1,1)}
 }
-else if ((room = mapLevel5_real) || (room = mapLevel6_real))
+else if ((room = mapLevel5_real) || (room = mapLevel6_real) || (room = rooml3))
 {
     if (audio_is_playing(sndTheme1)) || (audio_is_playing(sndTheme2))
     {
