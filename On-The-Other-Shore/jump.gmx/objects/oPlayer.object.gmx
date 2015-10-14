@@ -29,7 +29,7 @@
 
 event_inherited()
 
-if ((room = mapLevel1_time) || (room = mapLevel2_time) || (room = mapLevel3_time))
+/*if ((room = mapLevel1_time) || (room = mapLevel2_time) || (room = mapLevel3_time))
 {
     if (audio_is_playing(sndTheme1)) || (audio_is_playing(sndTheme3))
     {
@@ -37,7 +37,7 @@ if ((room = mapLevel1_time) || (room = mapLevel2_time) || (room = mapLevel3_time
     }
     if(!audio_is_playing(sndTheme2)) {audio_play_sound(sndTheme2,1,1)}
 }
-else if ((room = mapLevel5_real) || (room = mapLevel6_real) || (room = rooml3))
+else if ((room = mapLevel5_real) || (room = mapLevel6_real) || (room = mapLevel7_real))
 {
     if (audio_is_playing(sndTheme1)) || (audio_is_playing(sndTheme2))
     {
@@ -52,7 +52,7 @@ else
     audio_stop_all();
     }
     if(!audio_is_playing(sndTheme1)) {audio_play_sound(sndTheme1,1,1)}
-}
+}*/
 
 instance_create(x,y,oCheckpointSystem);
 instance_create(x,y,oOptimalizace);

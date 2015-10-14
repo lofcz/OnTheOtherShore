@@ -252,6 +252,7 @@
         <object>objects\oTextSpeci10</object>
         <object>objects\oTextSpeci11</object>
         <object>objects\oTextSpeci12</object>
+        <object>objects\oTextSpeci13</object>
       </objects>
       <objects name="Effects">
         <object>objects\oCutMask</object>
@@ -269,6 +270,7 @@
     <object>objects\oLaserCollision</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\mapLevel7_real</room>
     <rooms name="Finished">
       <rooms name="Real">
         <room>rooms\mapLevel1_real</room>
@@ -277,7 +279,6 @@
         <room>rooms\mapLevel4_real</room>
         <room>rooms\mapLevel5_real</room>
         <room>rooms\mapLevel6_real</room>
-        <room>rooms\mapLevel7_real</room>
       </rooms>
     </rooms>
     <rooms name="Uncompleted">

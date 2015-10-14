@@ -432,12 +432,6 @@
     <instance objName="oWallStatic" x="1216" y="848" name="inst_E73880C3" locked="0" code="" scaleX="0.400000005960464" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="oWallPort" x="1136" y="896" name="inst_2F6DCD29" locked="0" code="xx = 336&#xA;yy = 592&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oTurn180pSpeedy" x="1184" y="880" name="inst_B6ECEE05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oLazerEnd" x="464" y="672" name="inst_0B81D1E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oLazerStart" x="464" y="0" name="inst_9E90E8E4" locked="0" code="idd = (inst_0B81D1E9).id;&#xA;length = 6;&#xA;area = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oLazerStart" x="672" y="0" name="inst_83295555" locked="0" code="idd = (inst_4644C1C4).id;&#xA;length = 6;&#xA;area = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oLazerStart" x="240" y="0" name="inst_89ACF67D" locked="0" code="idd = (inst_F2E00630).id;&#xA;length = 6;&#xA;area = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oLazerEnd" x="464" y="672" name="inst_4644C1C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oLazerEnd" x="464" y="672" name="inst_F2E00630" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oLazerStart" x="800" y="680" name="inst_F22840B4" locked="0" code="idd = (inst_3DF1EDB2).id;&#xA;length = 6;&#xA;area = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oLazerEnd" x="1312" y="680" name="inst_3DF1EDB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="1216" y="896" name="inst_C4EF648C" locked="0" code="" scaleX="1" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
@@ -464,6 +458,10 @@
     <instance objName="oWallDeath" x="1904" y="2048" name="inst_7D100E7A" locked="0" code="" scaleX="35" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="oWallDeath" x="48" y="2416" name="inst_8147A896" locked="0" code="" scaleX="35" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="384" y="1632" name="inst_21913D87" locked="0" code="" scaleX="0.800000011920929" scaleY="11.3333330154419" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStaticAlpha" x="368" y="0" name="inst_97F53D69" locked="0" code="" scaleX="0.600000023841858" scaleY="13.6666669845581" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStaticAlpha" x="416" y="0" name="inst_F98220D2" locked="0" code="" scaleX="0.600000023841858" scaleY="13.6666669845581" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStaticAlpha" x="464" y="0" name="inst_6B58DDC6" locked="0" code="" scaleX="0.600000023841858" scaleY="13.6666669845581" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStaticAlpha" x="512" y="0" name="inst_1AC57836" locked="0" code="" scaleX="0.600000023841858" scaleY="13.6666669845581" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
