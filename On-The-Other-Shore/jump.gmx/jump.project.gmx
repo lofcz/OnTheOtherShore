@@ -24,11 +24,7 @@
   </datafiles>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\electrician</sound>
-    <sound>sound\sndExplosion</sound>
     <sound>sound\sndTheme1</sound>
-    <sound>sound\Jump</sound>
-    <sound>sound\Thunder</sound>
     <sound>sound\sndTlacitko</sound>
     <sound>sound\sndTheme2</sound>
     <sound>sound\sndTheme3</sound>
