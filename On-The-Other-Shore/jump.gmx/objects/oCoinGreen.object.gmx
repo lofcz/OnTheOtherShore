@@ -74,7 +74,7 @@
             <string>if (instance_number(oPlayer) &gt; 0)
 {
 image_angle += 1;
-if (distance_to_object(oPlayer) &lt; 5) {if (mode = 1) {mode = 2; scrEffectCoin(); repeat(10) {instance_create(x+random(30)-random(30),y+random(30)-random(30),oCoinEffectGreen)} }
+if (distance_to_object(oPlayer) &lt; 5) {if (mode = 1) {mode = 2; scrEffectCoin(); repeat(20) {instance_create(x+random(30)-random(30),y+random(30)-random(30),oCoinEffectGreen)} }
 }
 if (mode = 2) {if (image_xscale &gt; 0) {image_xscale -= 0.05; image_yscale = image_xscale } else {instance_destroy()}}
 }
