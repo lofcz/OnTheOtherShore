@@ -409,7 +409,7 @@
     <instance objName="oWallRam" x="1496" y="2072" name="inst_AE65E0C7" locked="0" code="xx = x;&#xA;yy = 2336&#xA;" scaleX="0.100000001490116" scaleY="4.66666650772095" colour="4294967295" rotation="0"/>
     <instance objName="oWallRam" x="1504" y="2072" name="inst_E3C750D2" locked="0" code="xx = x;&#xA;yy = 2336&#xA;" scaleX="0.100000001490116" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="576" y="2016" name="inst_B25BC7F9" locked="0" code="" scaleX="30.25" scaleY="1.16499996185303" colour="4294967295" rotation="0"/>
-    <instance objName="oLazerStart" x="1728" y="2464" name="inst_C8BD6C19" locked="0" code="idd = (inst_6CA84A63).id;&#xA;length = 6;&#xA;area = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oLazerStart" x="1520" y="2464" name="inst_C8BD6C19" locked="0" code="idd = (inst_6CA84A63).id;&#xA;length = 6;&#xA;area = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oLazerEnd" x="736" y="2464" name="inst_6CA84A63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStaticAlpha" x="1424" y="2336" name="inst_97AE6AB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCheckpoint" x="1440" y="2208" name="inst_EDB2A83D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
