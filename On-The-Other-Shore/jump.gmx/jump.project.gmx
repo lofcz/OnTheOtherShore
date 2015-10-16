@@ -112,6 +112,7 @@
       <script>scripts\scrEffectCheckpoint.gml</script>
       <script>scripts\scrEffectCheckpoint2.gml</script>
       <script>scripts\scrEffectRam.gml</script>
+      <script>scripts\scrEffectDestroy.gml</script>
     </scripts>
     <scripts name="API">
       <scripts name="Player">
@@ -264,8 +265,10 @@
     <object>objects\oLazerStart</object>
     <object>objects\oLazerEnd</object>
     <object>objects\oLaserCollision</object>
+    <object>objects\oArrow</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\mapLevel7_real</room>
     <rooms name="Finished">
       <rooms name="Real">
         <room>rooms\mapLevel1_real</room>
@@ -277,7 +280,6 @@
       </rooms>
     </rooms>
     <rooms name="Uncompleted">
-      <room>rooms\mapLevel7_real</room>
       <rooms name="Time">
         <room>rooms\mapLevel1_time</room>
         <room>rooms\mapLevel2_time</room>

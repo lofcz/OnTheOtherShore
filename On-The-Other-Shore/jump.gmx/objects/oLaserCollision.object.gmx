@@ -50,6 +50,7 @@
             <kind>1</kind>
             <string>if (a= 0)
 {
+    with (oPlayer){scrEffectDestroy();}
     instance_create(x,y,oDeadFog);
 alarm[0] = 20
  a = 1;
