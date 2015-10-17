@@ -115,6 +115,7 @@
       <script>scripts\scrEffectRam.gml</script>
       <script>scripts\scrEffectDestroy.gml</script>
       <script>scripts\scrRocket.gml</script>
+      <script>scripts\scrEffectRocket.gml</script>
     </scripts>
     <scripts name="API">
       <scripts name="Player">

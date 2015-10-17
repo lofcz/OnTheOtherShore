@@ -1224,7 +1224,7 @@
     <instance objName="oWallStatic" x="144" y="1328" name="inst_375FBD93" locked="0" code="" scaleX="0.800000011920929" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="160" y="1264" name="inst_A1238285" locked="0" code="" scaleX="0.800000011920929" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="128" y="1200" name="inst_04D11796" locked="0" code="" scaleX="0.800000011920929" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
-    <instance objName="oPlayer" x="672" y="2768" name="inst_2B1BEB8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oPlayer" x="672" y="2752" name="inst_2B1BEB8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

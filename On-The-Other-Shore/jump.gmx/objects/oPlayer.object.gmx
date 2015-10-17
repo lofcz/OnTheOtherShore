@@ -494,7 +494,6 @@ if (abs(view_angle) = 360)
     view_angle = 0;
    }
 }
-draw_text_color(x,y+16,hp,c_red,c_red,c_red,c_red,1);
 </string>
           </argument>
         </arguments>
