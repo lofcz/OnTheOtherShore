@@ -127,9 +127,9 @@ draw_set_color(c_white)
 // scrMulticoloredText(x-130,y-60,text)
  draw_text_ext_transformed(x,y,"Only",12,500,1,1,view_angle)
  draw_set_colour(make_color_rgb(255,0,0))
- draw_text_ext_transformed(x+50,y," ONE" ,12,500,1,1,view_angle)
+ draw_text_ext_transformed(x+35,y," ONE" ,12,500,1,1,view_angle)
  draw_set_color(c_white)
- draw_text_ext_transformed(x+100,y,"way is correct",12,500,1,1,view_angle)
+ draw_text_ext_transformed(x+110,y,"way is correct",12,500,1,1,view_angle)
  draw_text_ext_transformed(x+256,y," ",12,500,1,1,view_angle)
 
     }

@@ -79,7 +79,7 @@ if (k&lt;=0) {part_emitter_destroy(Sname,emitter1); room_goto_next();}
             <kind>1</kind>
             <string>with(other) {can_move = 0;}
 mode = 2;
-
+with(oRocket){instance_destroy();}
 
 </string>
           </argument>

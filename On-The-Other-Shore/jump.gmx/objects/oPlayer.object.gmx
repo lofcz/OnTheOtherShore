@@ -56,6 +56,13 @@ else
 
 instance_create(x,y,oCheckpointSystem);
 instance_create(x,y,oOptimalizace);
+if ((room = mapLevel1_time) || (room = mapLevel2_time) || (room = mapLevel3_time))
+{
+alarm[2] = 30;
+checkx = xstart
+checky = ystart
+}
+
 //instance_create(x,y,oTextLevelName);
 
 coins = 0;
@@ -192,6 +199,29 @@ event_user(0);
             <string>/// Draw trail again
 
 draw = 1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>instance_create(checkx,checky,oRocket)          //pokus
 </string>
           </argument>
         </arguments>
@@ -360,6 +390,10 @@ if (weight &lt; 1)
     weight = 0.5;
     }             
 
+if ((room = mapLevel1_time) || (room = mapLevel2_time) || (room = mapLevel3_time))
+{
+instance_create(x,y,oControl);
+}
 </string>
           </argument>
         </arguments>
@@ -460,7 +494,7 @@ if (abs(view_angle) = 360)
     view_angle = 0;
    }
 }
-
+draw_text_color(x,y+16,hp,c_red,c_red,c_red,c_red,1);
 </string>
           </argument>
         </arguments>

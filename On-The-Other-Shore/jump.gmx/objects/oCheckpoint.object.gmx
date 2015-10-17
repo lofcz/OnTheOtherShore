@@ -82,6 +82,18 @@ if (taken = 0)
             <kind>1</kind>
             <string>//if (taken = 0)
 //{
+if ((room = mapLevel1_time) || (room = mapLevel2_time) || (room = mapLevel3_time))
+{
+if (taken = 0)
+with oRocket{instance_destroy();}
+with oPlayer
+{
+checkx = x;
+checky = y;
+alarm[2] = 30
+}
+}
+
 with(oEnergyball) {instance_destroy();}
 oPlayer.hp = 100;
 taken = 1;

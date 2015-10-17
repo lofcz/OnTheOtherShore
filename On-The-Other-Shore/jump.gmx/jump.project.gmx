@@ -88,6 +88,7 @@
     <sprite>sprites\sD2</sprite>
     <sprite>sprites\sLaserBolt</sprite>
     <sprite>sprites\sArrow</sprite>
+    <sprite>sprites\sRocket</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Backgrounds">
@@ -113,6 +114,7 @@
       <script>scripts\scrEffectCheckpoint2.gml</script>
       <script>scripts\scrEffectRam.gml</script>
       <script>scripts\scrEffectDestroy.gml</script>
+      <script>scripts\scrRocket.gml</script>
     </scripts>
     <scripts name="API">
       <scripts name="Player">
@@ -266,6 +268,8 @@
     <object>objects\oLazerEnd</object>
     <object>objects\oLaserCollision</object>
     <object>objects\oArrow</object>
+    <object>objects\oRocket</object>
+    <object>objects\oControl</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mapLevel7_real</room>
