@@ -157,6 +157,7 @@
       <script>scripts\scrTextEngineSetUp.gml</script>
       <script>scripts\scrEffectRotate.gml</script>
       <script>scripts\scrRealAxis.gml</script>
+      <script>scripts\scrDequeue.gml</script>
       <script>scripts\scrRotate.gml</script>
     </scripts>
     <script>scripts\scrTransitionSpiral.gml</script>
@@ -273,6 +274,7 @@
     <object>objects\oControl</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\mapLevel1_time</room>
     <room>rooms\mapLevel7_real</room>
     <rooms name="Finished">
       <rooms name="Real">
@@ -286,7 +288,6 @@
     </rooms>
     <rooms name="Uncompleted">
       <rooms name="Time">
-        <room>rooms\mapLevel1_time</room>
         <room>rooms\mapLevel2_time</room>
         <room>rooms\mapLevel3_time</room>
       </rooms>

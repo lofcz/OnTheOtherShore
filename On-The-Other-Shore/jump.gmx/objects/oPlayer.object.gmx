@@ -272,7 +272,13 @@ y = ystart
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Screen rotate
+            <string>/// Screen rotate &amp;&amp; rocket trail
+
+if (instance_number(oRocket) &gt; 0) 
+   {
+    ds_queue_enqueue(oRocket.fronta_x,x);
+    ds_queue_enqueue(oRocket.fronta_y,y);
+   }
 
 if (hp &lt;= 0)
    {
