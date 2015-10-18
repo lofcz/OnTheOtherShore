@@ -274,7 +274,6 @@
     <object>objects\oControl</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\mapLevel1_time</room>
     <room>rooms\mapLevel7_real</room>
     <rooms name="Finished">
       <rooms name="Real">
@@ -290,6 +289,7 @@
       <rooms name="Time">
         <room>rooms\mapLevel2_time</room>
         <room>rooms\mapLevel3_time</room>
+        <room>rooms\mapLevel1_time</room>
       </rooms>
     </rooms>
     <rooms name="Cutscenes">
