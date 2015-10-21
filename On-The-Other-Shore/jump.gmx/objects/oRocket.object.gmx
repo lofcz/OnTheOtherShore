@@ -99,7 +99,7 @@ if (distance_to_point(tar_x,tar_y) = 0)
    tar_y = tar_yy;
    }
    
-move_towards_point(tar_x,tar_y,6);
+move_towards_point(tar_x,tar_y,8);
 </string>
           </argument>
         </arguments>

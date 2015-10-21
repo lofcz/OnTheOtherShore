@@ -287,9 +287,9 @@
     </rooms>
     <rooms name="Uncompleted">
       <rooms name="Time">
+        <room>rooms\mapLevel1_time</room>
         <room>rooms\mapLevel2_time</room>
         <room>rooms\mapLevel3_time</room>
-        <room>rooms\mapLevel1_time</room>
       </rooms>
     </rooms>
     <rooms name="Cutscenes">

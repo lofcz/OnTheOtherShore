@@ -62,6 +62,9 @@ instance_deactivate_region(x-400,y-400,1500,1500,0,1);
 instance_activate_object(oPlayer);
 instance_activate_object(oCheckpointSystem);
 instance_activate_object(oWallBarricade);
+instance_activate_object(oRocket);
+instance_activate_object(oEnergyball);
+instance_activate_object(oWallEnergyBreather);
 </string>
           </argument>
         </arguments>
