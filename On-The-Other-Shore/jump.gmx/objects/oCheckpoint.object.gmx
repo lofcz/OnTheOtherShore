@@ -94,7 +94,7 @@ alarm[2] = 30
 }
 }
 
-with(oEnergyball) {instance_destroy();}
+/*with(oEnergyball) {instance_destroy();}*/
 oPlayer.hp = 100;
 taken = 1;
 with(oCheckpointSystem)
