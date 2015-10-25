@@ -183,8 +183,8 @@
       <object>objects\oWallBreakable</object>
       <object>objects\oWallSpeedMove</object>
       <object>objects\oWallMoveable</object>
-      <object>objects\oWallMoveableCart</object>
       <object>objects\oWallEnergyBreather</object>
+      <object>objects\oWallMoveableCart</object>
       <object>objects\oWallStaticGravity</object>
       <object>objects\oWallStaticGravityBouncy</object>
       <object>objects\oWallSpike</object>
@@ -274,23 +274,19 @@
     <object>objects\oControl</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\mapLevel7_real</room>
-    <rooms name="Finished">
-      <rooms name="Real">
-        <room>rooms\mapLevel1_real</room>
-        <room>rooms\mapLevel2_real</room>
-        <room>rooms\mapLevel3_real</room>
-        <room>rooms\mapLevel4_real</room>
-        <room>rooms\mapLevel5_real</room>
-        <room>rooms\mapLevel6_real</room>
-      </rooms>
+    <rooms name="Real">
+      <room>rooms\mapLevel1_real</room>
+      <room>rooms\mapLevel2_real</room>
+      <room>rooms\mapLevel3_real</room>
+      <room>rooms\mapLevel4_real</room>
+      <room>rooms\mapLevel5_real</room>
+      <room>rooms\mapLevel6_real</room>
+      <room>rooms\mapLevel7_real</room>
     </rooms>
-    <rooms name="Uncompleted">
-      <rooms name="Time">
-        <room>rooms\mapLevel1_time</room>
-        <room>rooms\mapLevel2_time</room>
-        <room>rooms\mapLevel3_time</room>
-      </rooms>
+    <rooms name="Time">
+      <room>rooms\mapLevel1_time</room>
+      <room>rooms\mapLevel2_time</room>
+      <room>rooms\mapLevel3_time</room>
     </rooms>
     <rooms name="Cutscenes">
       <room>rooms\mapMainMenu</room>

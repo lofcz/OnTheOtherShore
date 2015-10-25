@@ -3,7 +3,7 @@
   <caption></caption>
   <width>3100</width>
   <height>3100</height>
-  <vsnap>8</vsnap>
+  <vsnap>16</vsnap>
   <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
@@ -195,7 +195,7 @@
     <instance objName="oCoinBig" x="144" y="1576" name="inst_1B8533C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoinBig" x="184" y="1576" name="inst_E7FC6FE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="0" y="1592" name="inst_CAFFE87D" locked="0" code="" scaleX="6.40000009536743" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="oWallStatic" x="532" y="1496" name="inst_DF9254F4" locked="0" code="" scaleX="0.139240503311157" scaleY="0.14583332836628" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="528" y="1512" name="inst_DF9254F4" locked="0" code="" scaleX="0.237499997019768" scaleY="0.16666667163372" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="553" y="1954" name="inst_0A7C7731" locked="0" code="" scaleX="4.55000019073486" scaleY="0.200000002980232" colour="4294967295" rotation="90"/>
     <instance objName="oWallStatic" x="496" y="1952" name="inst_4BCE2538" locked="0" code="" scaleX="4.19999980926514" scaleY="0.333999991416931" colour="4294967295" rotation="90"/>
     <instance objName="oWallStatic" x="216" y="2144" name="inst_7CEB6891" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
@@ -216,7 +216,6 @@
     <instance objName="oWallSpike" x="2380" y="816" name="inst_9B7193D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="780" y="864" name="inst_6CCEA0C1" locked="0" code="" scaleX="20.5799999237061" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oTurn270p" x="1140" y="2820" name="inst_44A560BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWallStatic" x="594" y="1537" name="inst_19B665F9" locked="0" code="" scaleX="0.137500002980232" scaleY="0.255319148302078" colour="4294967295" rotation="0"/>
     <instance objName="oCoinBig" x="2512" y="2624" name="inst_FDEEF8B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoinBig" x="2512" y="2672" name="inst_B4AA145C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallSpike" x="780" y="816" name="inst_2F0BCF47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -526,6 +525,12 @@
     <instance objName="oWallPort" x="1312" y="1120" name="inst_9511D94D" locked="0" code="xx=536  &#xA;yy=1489&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="352" y="1424" name="inst_BFE7B0F4" locked="0" code="" scaleX="0.600000023841858" scaleY="2.91666674613953" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="0" y="1136" name="inst_A813531F" locked="0" code="" scaleX="0.400000005960464" scaleY="9.5" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="547" y="1472" name="inst_17A2564D" locked="0" code="" scaleX="0.100000001490116" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="520" y="1504" name="inst_D46A6057" locked="0" code="" scaleX="0.100000001490116" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="512" y="1496" name="inst_02106869" locked="0" code="" scaleX="0.100000001490116" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="504" y="1488" name="inst_4035E258" locked="0" code="" scaleX="0.100000001490116" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="496" y="1480" name="inst_D406D6B3" locked="0" code="" scaleX="0.100000001490116" scaleY="0.833333313465118" colour="4294967295" rotation="0"/>
+    <instance objName="oWallStatic" x="488" y="1472" name="inst_8F749C12" locked="0" code="" scaleX="0.100000001490116" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
