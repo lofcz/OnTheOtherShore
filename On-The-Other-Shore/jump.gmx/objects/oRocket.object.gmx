@@ -101,7 +101,7 @@ if (distance_to_point(tar_x,tar_y) = 0)
    
 move_towards_point(tar_x,tar_y,8);
 
-if distance_to_point(oPlayer.x,oPlayer.y) &lt; 1
+if distance_to_point(oPlayer.x,oPlayer.y) &lt; 5
 {
 with (oPlayer)
     {

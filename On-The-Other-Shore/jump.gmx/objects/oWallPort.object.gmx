@@ -56,15 +56,22 @@ Sname = part_system_create();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>if ((room = mapLevel1_time) || (room = mapLevel2_time) || (room = mapLevel3_time))
+{
+z = 5
+}
+else
+{
+z = 2
+}
 
 if (player = 1)
    {
    k_p = 1;
 if (k&gt;= 255) {image_index = 1; scrPlayerStopDraw() scrPlayerMove(xx,yy)} else {image_index = 0;}   
-if (k&lt;255){ k += 2; scrEffectTeleport()}
+if (k&lt;255){ k += z; scrEffectTeleport()}
    }
-   else {image_index = 0; if (k &gt; 0) {k-= 2;} else {if (k_p = 1) {k_p = 0;}}}
+   else {image_index = 0; if (k &gt; 0) {k-= z;} else {if (k_p = 1) {k_p = 0;}}}
 
 
 scrColorShaderStepSpeci()
