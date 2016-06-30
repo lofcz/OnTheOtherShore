@@ -127,7 +127,7 @@ draw_set_color(c_white)
 // scrMulticoloredText(x-130,y-60,text)
  draw_text_ext_transformed(x,y,"Use",12,500,1,1,view_angle)
  draw_set_color(make_colour_rgb(0,green,green))
- draw_text_ext_transformed(x+73,y,"w,a,d or arrows",12,500,1,1,view_angle)
+ draw_text_ext_transformed(x+73,y,"w,s,a,d or arrows",12,500,1,1,view_angle)
  draw_set_color(c_white)
  draw_text_ext_transformed(x+160,y,"to move.",12,500,1,1,view_angle)
 

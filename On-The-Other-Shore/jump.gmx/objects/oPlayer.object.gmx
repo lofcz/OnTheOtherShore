@@ -82,6 +82,7 @@ max_trail_parts = 15;
 trail_count = -1; 
 trail_col = c_yellow;
 
+
   length = 30;
     w1 = 5;
     w2 = 0;
@@ -495,6 +496,7 @@ event_user(0)
             <kind>1</kind>
             <string>/// Draw self
 
+
 if (can_move &amp;&amp; draw = 1)
 {
 draw_trail(trail,w1,w2,c1,c2,a1,a2);
@@ -504,6 +506,7 @@ if (abs(view_angle) = 360)
     view_angle = 0;
    }
 }
+
 </string>
           </argument>
         </arguments>

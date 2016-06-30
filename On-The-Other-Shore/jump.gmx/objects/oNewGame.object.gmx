@@ -60,7 +60,7 @@ xs = 1
    
    if (mouse_check_button_pressed(mb_left))
     {
-     room_goto(mapLevel1)
+     room_goto(mapLevel1_real)
     }  
 
    if (s &lt; 1)

@@ -39,7 +39,7 @@ var_resolution_x = 960
 var_resolution_y = 600
 
 uni_radial_blur_offset = shader_get_uniform(shd_radial_blur,"radial_blur_offset");
-var_radial_blur_offset = 0.01;
+var_radial_blur_offset = 0.05;
 
 uni_radial_brightness = shader_get_uniform(shd_radial_blur,"radial_brightness");
 var_radial_brightness = 1;
