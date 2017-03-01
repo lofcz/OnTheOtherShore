@@ -38,6 +38,7 @@ onMeList = ds_list_create();
 notOnMeList = ds_list_create();
 entity_collision = false;
 fall_speed = 0;
+canCollide = true;
 
 // Rychlost transformace
 n   =  10;

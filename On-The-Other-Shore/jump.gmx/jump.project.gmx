@@ -276,6 +276,7 @@
     <object>objects\oControl</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\mapPhysicTest</room>
     <room>rooms\mapMainMenu</room>
     <room>rooms\mapLevel1_real</room>
     <room>rooms\mapLevel2_real</room>
@@ -293,7 +294,6 @@
       <room>rooms\mapIntro</room>
     </rooms>
     <room>rooms\mapLevelBasic</room>
-    <room>rooms\mapPhysicTest</room>
   </rooms>
   <constants number="6">
     <constant name="e_alpha">4</constant>

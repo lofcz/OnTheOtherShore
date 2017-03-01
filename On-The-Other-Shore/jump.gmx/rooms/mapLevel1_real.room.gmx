@@ -56,9 +56,6 @@
     <instance objName="oTextSpeci6" x="336" y="2256" name="inst_7D96C510" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallStatic" x="1648" y="1152" name="inst_F19FD267" locked="0" code="" scaleX="0.400000005960464" scaleY="10.6700000762939" colour="4294967295" rotation="0"/>
     <instance objName="oTurn270p" x="1536" y="2032" name="inst_EF4C7205" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oTurn90p" x="1616" y="1632" name="inst_AEAED40E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oTurn90p" x="1616" y="1184" name="inst_AF07F488" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oTurn90p" x="896" y="1184" name="inst_9CF71202" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="352" y="1456" name="inst_0C29B6FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="1296" y="1648" name="inst_F04CAAAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCoin" x="1328" y="1648" name="inst_90AA2AD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

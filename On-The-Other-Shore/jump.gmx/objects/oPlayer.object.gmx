@@ -28,6 +28,14 @@
             <string>/// Declare variables
 
 event_inherited()
+targetViewW = 960;
+targetViewH = 600;
+modeV = 0;
+targetViewAngle = 0;
+canCollide = true;
+vTimer[0] = -1;
+vCheck = 0;
+lastKey = "d";
 
 if ((room = mapLevel1_time) || (room = mapLevel2_time) || (room = mapLevel3_time))
 {
@@ -227,6 +235,30 @@ draw = 1;
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>targetViewW = 960;
+targetViewH = 600;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
@@ -355,14 +387,37 @@ if (hp_curr != hp) {}
             <kind>1</kind>
             <string>/// Move &amp; actions
 
+if (vTimer[0] &gt; 0) {vTimer[0]--;}
+
+if (vTimer[0] == 0) 
+{
+vCheck = 0;
+vTimer[0] = -1;
+}
+
 if (can_move)
 {
+if (keyboard_check_pressed(vk_space))
+    {
+     if (lastKey == "d") {hspd += 30;}
+     if (lastKey == "a") {hspd -= 30;}
+
+     targetViewW = 1200;
+     targetViewH = 1000;
+     alarm[1] = 20
+    }
+if (hspd == 0) {alarm[1] = 1;}
+
 
 __move = ((keyboard_check(vk_right)+keyboard_check(ord("D")))-(keyboard_check(vk_left)+keyboard_check(ord("A"))));
+{
 if (__move &gt; 0 &amp;&amp; hspd &lt; 8) {
  hspd = min(hspd+2,8);
+ lastKey = "d";
 } else if (__move &lt; 0 &amp;&amp; hspd &gt; -8) {
  hspd = max(hspd-2,-8);
+ lastKey = "a";
+}
 }
 
 
@@ -507,6 +562,115 @@ if (abs(view_angle) = 360)
    }
 }
 
+view_wview = lerp(view_wview, targetViewW, 0.1);
+view_hview = lerp(view_hview, targetViewH, 0.1);
+view_angle = lerp(view_angle, targetViewAngle, 0.1);
+view_view = 270 - view_angle;
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="77">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>targetViewAngle += 90;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="76">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>targetViewAngle -= 90;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="75">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>canCollide = !canCollide;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="66">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>modeV = !modeV;
+
+if (modeV)
+{
+targetViewW = 1200;
+targetViewH = 1000;
+}
+else 
+{
+targetViewW = 960;
+targetViewH = 600;
+}
 </string>
           </argument>
         </arguments>
